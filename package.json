@@ -10,6 +10,7 @@
     "i18next": "^19.6.2",
     "i18next-browser-languagedetector": "^5.0.0",
     "i18next-http-backend": "^1.0.17",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-i18next": "^11.7.0",
@@ -23,12 +24,13 @@
     "tailwindcss": "^1.5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run build:css && react-scripts start",
+    "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
-    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\""
+    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\"",
+    "build:css": "postcss src/styles/tailwind.css -o src/styles/app.css"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -69,6 +71,7 @@
     "eslint-plugin-react-hooks": "^4.0.8",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
+    "postcss-cli": "^7.1.1",
     "prettier": "^2.0.5"
   }
 }
