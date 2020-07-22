@@ -8,6 +8,14 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
       </Switch>
+      <a
+        className="App-link"
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Learn React
+      </a>
     </BrowserRouter>
   );
 }
