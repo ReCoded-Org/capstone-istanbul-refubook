@@ -11,7 +11,7 @@ jobs:
           steps:
             - run: yarn install
             - run: yarn run format
-            - run: "git --no-pager diff -- . ':(exclude)yarn.lock' ':(exclude)yarn.lock'"
+            - run: "[[ -z $(git --no-pager diff -- . ':(exclude)yarn.lock' ':(exclude)yarn.lock') ]]"
             - run: yarn run test --passWithNoTests
             - run: export CI=1
 workflows:
