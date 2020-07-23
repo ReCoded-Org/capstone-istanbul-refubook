@@ -17,17 +17,17 @@ const Footer = () => {
             </a>
           </li>
           <li class="mr-6">
-            <a class="text-gray-500 hover:text-gray-800" href="#">
+            <a class="text-gray-500 hover:text-gray-800" href="/about">
               About
             </a>
           </li>
           <li class="mr-6">
-            <a class="text-gray-500 hover:text-gray-800" href="#">
+            <a class="text-gray-500 hover:text-gray-800" href="/contact">
               Contact
             </a>
           </li>
           <li>
-            <a class="text-gray-500 hover:text-gray-800" href="#">
+            <a class="text-gray-500 hover:text-gray-800" href="/blog">
               Blog
             </a>
           </li>
