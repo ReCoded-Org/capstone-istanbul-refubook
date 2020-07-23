@@ -13,7 +13,7 @@ function LatestStories() {
           </p>
         </header>
         <div className="max-w-sm rounded overflow-hidden border-solid">
-          <img className="px-2 w-full object-cover" src={Image} />
+          <img className="px-6 w-full object-cover" src={Image} alt="" />
           <div className="px-6 py-4">
             <div className="font-bold text-white text-xl mb-2">The Latest Story</div>
             <p className="text-gray-400 text-base">
@@ -31,6 +31,7 @@ function LatestStories() {
                 <img
                   className="w-10 h-10 rounded-full mr-4 object-cover"
                   src={Image}
+                  alt=""
                 />
               </li>
               <div className="text-sm">
@@ -47,7 +48,7 @@ function LatestStories() {
         </div>
 
         <div className="max-w-sm rounded overflow-hidden">
-          <img className="px-2 w-full object-cover" src={Image} />
+          <img className="px-6 w-full object-cover" src={Image} alt="" />
           <div className="px-6 py-4">
             <div className="font-bold text-white text-xl mb-2">The Latest Story</div>
             <p className="text-gray-400 text-base">
@@ -65,6 +66,7 @@ function LatestStories() {
                 <img
                   className="w-10 h-10 rounded-full mr-4 object-cover"
                   src={Image}
+                  alt=""
                 />
               </li>
               <div className="text-sm">
