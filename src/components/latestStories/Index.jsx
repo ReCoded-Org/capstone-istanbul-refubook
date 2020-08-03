@@ -4,7 +4,7 @@ import Image from '../../assets/Image.png';
 function LatestStories() {
   return (
     <>
-      <body className="flex flex-wrap items-center justify-evenly bg-blue-500  py-10 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+      <div className="flex flex-wrap items-center justify-evenly bg-blue-500  py-10 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
         <header className="px-16 text-white bg-blue-500 w-full">
           <p className="font-bold text-white text-xl text-center">Latest Stories</p>
           <p className="pb-10 text-center">
@@ -81,7 +81,7 @@ function LatestStories() {
             </ul>
           </div>
         </div>
-      </body>
+      </div>
     </>
   );
 }

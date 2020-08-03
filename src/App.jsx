@@ -1,23 +1,21 @@
 import React from 'react';
 import './styles/app.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './layout/home/index';
+import Home from './layout/home/Index';
+import About from './layout/about/Index';
+import Blog from './layout/blog/Index';
+import Contact from './layout/contact';
+
 function App() {
   return (
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/blog" component={Blog} />
+        <Route path="/contact" component={Contact} />
       </Switch>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
     </BrowserRouter>
   );
 }
-
 export default App;
