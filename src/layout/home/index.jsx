@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePageAboutSection from '../../components/homePageAboutSection/Index';
+import HomePageAboutSection from '../../components/homePageAboutSection';
 const Home = () => {
   return (
     <>

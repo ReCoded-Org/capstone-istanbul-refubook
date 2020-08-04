@@ -1,7 +1,7 @@
 import React from 'react';
 import aboutSectionImg from '../../assets/aboutSectionImg.svg';
-import Carousel from '../carousel/Index';
-import AboutCTA from '../aboutCTA/Index';
+import Carousel from '../carousel';
+import AboutCTA from '../aboutCTA';
 import {
   aboutCarouselData,
   aboutCarouselSettings,
