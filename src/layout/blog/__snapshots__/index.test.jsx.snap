@@ -1,0 +1,596 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog page renders correctly 1`] = `
+Array [
+  <div>
+    <header
+      className="px-8 px-6 py-2 bg-white flex flex-wrap items-center lg:py-0 py-0 text-center"
+    >
+      <div
+        className="flex flex-1 justify-between"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <p
+            className="text-blue-500 text-xl font-bold py-6 text-center items-center"
+          >
+            Refubook
+          </p>
+        </a>
+        <div
+          className="py-6 flex sm:items-center sm:w-auto lg:flex lg:items-center lg:w-auto"
+        >
+          <nav>
+            <ul
+              className="lg:flex items-center justify-between text-base text-gray-500 lg:pt-0 sm:flex justify-center items-center"
+            >
+              <li>
+                <button
+                  onClick={[Function]}
+                >
+                  AR
+                </button>
+                <button
+                  onClick={[Function]}
+                >
+                  EN
+                </button>
+                <a
+                  className="sm:px-2 lg:p-4 py-3 px-0 hover:text-blue-600"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  className="sm:px-2 lg:p-4 py-3 px-0 hover:text-blue-600"
+                  href="/about"
+                  onClick={[Function]}
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  className="sm:px-2 lg:p-4 py-3 px-0 hover:text-blue-600"
+                  href="/blog"
+                  onClick={[Function]}
+                >
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a
+                  className="sm:px-2 lg:p-4 py-3 px-0 hover:text-blue-600"
+                  href="/contact"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+              <li>
+                <button
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded-full "
+                >
+                  <a
+                    href="/signIn"
+                    onClick={[Function]}
+                  >
+                    Sign in
+                  </a>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>,
+  <div
+    className="grid grid-cols-1 lg:mx-20 xl:mx-40 gap-16 mx-3 relative"
+  >
+    <div
+      className="flex flex-col pt-8 pr-2 gap-1 absolute top-0 right-0 z-10"
+    >
+      <span
+        className=" text-right"
+      >
+        share
+      </span>
+      <a
+        href="socialMediaLink"
+      >
+        <img
+          alt="instagram icon"
+          className="w-8 float-right"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "instagramIcon.svg",
+            }
+          }
+        />
+      </a>
+      <a
+        href="socialMediaLink"
+      >
+        <img
+          alt="facebook icon"
+          className="w-8 float-right"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "facebookIcon.svg",
+            }
+          }
+        />
+      </a>
+      <a
+        href="socialMediaLink"
+      >
+        <img
+          alt="twitter icon"
+          className="w-8 float-right"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "twitterIcon.svg",
+            }
+          }
+        />
+      </a>
+    </div>
+    <div
+      className="relative top-0"
+    >
+      <div
+        className=" "
+      >
+        <article
+          className=""
+        >
+          <header>
+            <h1
+              className="text-center p-4 text-xl font-bold"
+            >
+              Title Title Title Title Title
+            </h1>
+          </header>
+          <section
+            className="content-center"
+          >
+            <img
+              alt="Article Cover"
+              className="mx-auto"
+              src={
+                Object {
+                  "ReactComponent": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "__esModule": true,
+                  "default": "ImageHolder.svg",
+                }
+              }
+            />
+            <div
+              className="flex items-center p-2 justify-center"
+            >
+              <img
+                alt="Avatar of Jonathan Reinink"
+                className="w-8 h-8 rounded-full mr-2"
+                src={
+                  Object {
+                    "ReactComponent": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "__esModule": true,
+                    "default": "AuthorAvatar.svg",
+                  }
+                }
+              />
+              <div
+                className="text-xs"
+              >
+                <p
+                  className="text-gray-900 leading-none"
+                >
+                  <a
+                    href="#author"
+                    target="_blank"
+                  >
+                    Jonathan Reinink
+                  </a>
+                </p>
+                <p
+                  className="text-gray-600"
+                >
+                  Aug 18
+                </p>
+              </div>
+            </div>
+            <h2
+              className="text-center pt-3 text-lg font-medium"
+            >
+              subTitle subTitle subTitle
+            </h2>
+          </section>
+          <section
+            className=""
+          >
+            <article
+              className=" text-center"
+            >
+              <p
+                className="p-3"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!
+              </p>
+              <p
+                className="p-3"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!
+              </p>
+              <p
+                className="p-3"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!
+              </p>
+              <footer
+                className="text-center text-xs text-gray-600"
+              >
+                <p>
+                  <span>
+                     
+                    Posted on
+                     
+                  </span>
+                  <time
+                    dateTime="2015-05-16 19:00"
+                  >
+                    Aug 18
+                  </time>
+                   
+                  by
+                   
+                  <a
+                    className="text-blue-700"
+                    href="#author"
+                  >
+                    Jonathan Reinink
+                  </a>
+                </p>
+              </footer>
+            </article>
+          </section>
+        </article>
+      </div>
+    </div>
+    <div
+      className="pt-16"
+    >
+      <h2
+        className=" text-xl font-medium"
+      >
+        Read also:
+      </h2>
+      <br />
+      <div
+        className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 "
+      >
+        <div
+          className="py-4 flex justify-center items-center"
+        >
+          <div
+            className="max-w-sm rounded overflow-hidden shadow-md"
+          >
+            <img
+              alt="Sunset in the mountains"
+              className="w-full"
+              src="https://via.placeholder.com/350x200"
+            />
+            <div
+              className="px-6 py-4"
+            >
+              <div
+                className="font-bold text-xl mb-2"
+              >
+                <a
+                  href="/"
+                >
+                  How I learned Turkish quickly and what are the best places to learn.
+                </a>
+              </div>
+              <p
+                className="text-gray-700 text-base"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div
+              className="px-6 py-4 flex items-center"
+            >
+              <img
+                alt="Avatar of Ahmad Faysal"
+                className="w-10 h-10 rounded-full mr-4"
+                src="https://via.placeholder.com/150"
+              />
+              <div
+                className="text-sm"
+              >
+                <p
+                  className="text-gray-900 leading-none"
+                >
+                  Ahmad Faysal
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="py-4 flex justify-center items-center"
+        >
+          <div
+            className="max-w-sm rounded overflow-hidden shadow-md"
+          >
+            <img
+              alt="Sunset in the mountains"
+              className="w-full"
+              src="https://via.placeholder.com/350x200"
+            />
+            <div
+              className="px-6 py-4"
+            >
+              <div
+                className="font-bold text-xl mb-2"
+              >
+                <a
+                  href="/"
+                >
+                  How I learned Turkish quickly and what are the best places to learn.
+                </a>
+              </div>
+              <p
+                className="text-gray-700 text-base"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div
+              className="px-6 py-4 flex items-center"
+            >
+              <img
+                alt="Avatar of Ahmad Faysal"
+                className="w-10 h-10 rounded-full mr-4"
+                src="https://via.placeholder.com/150"
+              />
+              <div
+                className="text-sm"
+              >
+                <p
+                  className="text-gray-900 leading-none"
+                >
+                  Ahmad Faysal
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="py-4 flex justify-center items-center"
+        >
+          <div
+            className="max-w-sm rounded overflow-hidden shadow-md"
+          >
+            <img
+              alt="Sunset in the mountains"
+              className="w-full"
+              src="https://via.placeholder.com/350x200"
+            />
+            <div
+              className="px-6 py-4"
+            >
+              <div
+                className="font-bold text-xl mb-2"
+              >
+                <a
+                  href="/"
+                >
+                  How I learned Turkish quickly and what are the best places to learn.
+                </a>
+              </div>
+              <p
+                className="text-gray-700 text-base"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div
+              className="px-6 py-4 flex items-center"
+            >
+              <img
+                alt="Avatar of Ahmad Faysal"
+                className="w-10 h-10 rounded-full mr-4"
+                src="https://via.placeholder.com/150"
+              />
+              <div
+                className="text-sm"
+              >
+                <p
+                  className="text-gray-900 leading-none"
+                >
+                  Ahmad Faysal
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="py-4 flex justify-center items-center"
+        >
+          <div
+            className="max-w-sm rounded overflow-hidden shadow-md"
+          >
+            <img
+              alt="Sunset in the mountains"
+              className="w-full"
+              src="https://via.placeholder.com/350x200"
+            />
+            <div
+              className="px-6 py-4"
+            >
+              <div
+                className="font-bold text-xl mb-2"
+              >
+                <a
+                  href="/"
+                >
+                  How I learned Turkish quickly and what are the best places to learn.
+                </a>
+              </div>
+              <p
+                className="text-gray-700 text-base"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div
+              className="px-6 py-4 flex items-center"
+            >
+              <img
+                alt="Avatar of Ahmad Faysal"
+                className="w-10 h-10 rounded-full mr-4"
+                src="https://via.placeholder.com/150"
+              />
+              <div
+                className="text-sm"
+              >
+                <p
+                  className="text-gray-900 leading-none"
+                >
+                  Ahmad Faysal
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="py-4 flex justify-center items-center"
+        >
+          <div
+            className="max-w-sm rounded overflow-hidden shadow-md"
+          >
+            <img
+              alt="Sunset in the mountains"
+              className="w-full"
+              src="https://via.placeholder.com/350x200"
+            />
+            <div
+              className="px-6 py-4"
+            >
+              <div
+                className="font-bold text-xl mb-2"
+              >
+                <a
+                  href="/"
+                >
+                  How I learned Turkish quickly and what are the best places to learn.
+                </a>
+              </div>
+              <p
+                className="text-gray-700 text-base"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div
+              className="px-6 py-4 flex items-center"
+            >
+              <img
+                alt="Avatar of Ahmad Faysal"
+                className="w-10 h-10 rounded-full mr-4"
+                src="https://via.placeholder.com/150"
+              />
+              <div
+                className="text-sm"
+              >
+                <p
+                  className="text-gray-900 leading-none"
+                >
+                  Ahmad Faysal
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="py-4 flex justify-center items-center"
+        >
+          <div
+            className="max-w-sm rounded overflow-hidden shadow-md"
+          >
+            <img
+              alt="Sunset in the mountains"
+              className="w-full"
+              src="https://via.placeholder.com/350x200"
+            />
+            <div
+              className="px-6 py-4"
+            >
+              <div
+                className="font-bold text-xl mb-2"
+              >
+                <a
+                  href="/"
+                >
+                  How I learned Turkish quickly and what are the best places to learn.
+                </a>
+              </div>
+              <p
+                className="text-gray-700 text-base"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div
+              className="px-6 py-4 flex items-center"
+            >
+              <img
+                alt="Avatar of Ahmad Faysal"
+                className="w-10 h-10 rounded-full mr-4"
+                src="https://via.placeholder.com/150"
+              />
+              <div
+                className="text-sm"
+              >
+                <p
+                  className="text-gray-900 leading-none"
+                >
+                  Ahmad Faysal
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

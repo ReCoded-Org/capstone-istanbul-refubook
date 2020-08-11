@@ -1,0 +1,23 @@
+{
+  "article": {
+    "id": 1,
+    "author": {
+      "id": 1,
+      "name": "Jonathan Reinink",
+      "avatar": " require('../../assets/AuthorAvatar.svg')",
+      "profile": "''"
+    },
+    "title": "Title Title Title Title Title",
+    "subTitle": "subTitle subTitle subTitle",
+    "image": "require('../../assets/ImageHolder.svg')",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!",
+    "PostedOn": "Posted on",
+    "by": "by",
+    "date": "Aug 18",
+    "dateTime": "2015-05-16 19:00"
+  },
+  "blog": {
+    "share": "share",
+    "ReadAlso": "Read also:"
+  }
+}
