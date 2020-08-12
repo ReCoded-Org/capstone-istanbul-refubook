@@ -1,7 +1,7 @@
 import React from 'react';
 //import Navbar from '../../components/navbar/Index';
 import editIcon from '../../assets/editIcon.svg';
-import Carousel from '../../components/carousel';
+import Carousel from '../../components/carousel/Index';
 import BlogsCard from '../../components/blogsCard';
 import { userProfileCarouselSettings } from '../../consts/userProfileConsts';
 import Avatar from '../../components/avatar';
