@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/app.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './layout/home';
-import About from './layout/about';
+import About from './layout/about/Index';
 import UserProfile from './layout/userProfile';
 
 function App() {
