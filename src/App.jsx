@@ -5,6 +5,8 @@ import Home from './layout/home/Index';
 import About from './layout/about/Index';
 import Blog from './layout/blog/Index';
 import Contact from './layout/contact';
+import SignUp from './layout/signUp';
+import LogIn from './layout/signIn';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
+        <Route path="/signup" component={SignUp} />
+        <Route path="/login" component={LogIn} />
       </Switch>
     </BrowserRouter>
   );
