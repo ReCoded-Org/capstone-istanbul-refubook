@@ -13,8 +13,6 @@ const Home = ({ t }) => {
     <>
       <Navbar NavbarStyle={NavbarStyle} />
       <LatestStories />
-      <button onClick={() => changeLanguage('en')}>Eng</button>
-      <button onClick={() => changeLanguage('ar')}>Ar</button>
     </>
   );
 };
