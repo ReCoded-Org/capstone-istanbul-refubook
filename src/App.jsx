@@ -1,9 +1,14 @@
 import React from 'react';
 import './styles/app.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './layout/home';
-import About from './layout/about/Index';
+
 import UserProfile from './layout/userProfile';
+import Home from './layout/home/Index';
+import About from './layout/about/Index';
+import Blog from './layout/blog/Index';
+import Contact from './layout/contact';
+import SignUp from './layout/signUp';
+import LogIn from './layout/signIn';
 
 function App() {
   return (
@@ -12,17 +17,12 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/userProfile" component={UserProfile} />
+        <Route path="/blog" component={Blog} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/signup" component={SignUp} />
+        <Route path="/login" component={LogIn} />
       </Switch>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
     </BrowserRouter>
   );
 }
-
 export default App;
