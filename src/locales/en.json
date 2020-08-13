@@ -21,10 +21,108 @@
     "ReadAlso": "Read also:"
   },
   "about": {
+    "title": "About",
+    "discreption": "About page",
+
+    "team": {
+      "heading": "The Team",
+      "countries": ["View All", "USA", "Turkey", "Lebanon"],
+
+      "members-all": [
+        {
+          "name": "John",
+          "title": "Harvard university ceo"
+        },
+        {
+          "name": "Sarah",
+          "title": "any title for test"
+        },
+        {
+          "name": "Ahmad",
+          "title": "not a title for test"
+        },
+        {
+          "name": "Khaled",
+          "title": "ACMP head engineer"
+        },
+        {
+          "name": "Mohamad",
+          "title": "ACMP ceo"
+        },
+        {
+          "name": "Ammar",
+          "title": "Trainer at Recoded"
+        },
+        {
+          "name": "Louis",
+          "title": "Trainer at Recoded"
+        },
+        {
+          "name": "Jaime",
+          "title": "Program manager at Recoded"
+        },
+        {
+          "name": "Lars",
+          "title": "Communication manager at Recoded"
+        }
+      ],
+      "members-usa": [
+        {
+          "name": "John",
+          "title": "Harvard university ceo"
+        },
+        {
+          "name": "Sarah",
+          "title": "any title for test"
+        }
+      ],
+      "members-turkey": [
+        {
+          "name": "Ahmad",
+          "title": "not a title for test"
+        },
+        {
+          "name": "Khaled",
+          "title": "ACMP head engineer"
+        },
+        {
+          "name": "Mohamad",
+          "title": "ACMP ceo"
+        },
+        {
+          "name": "Ammar",
+          "title": "Trainer at Recoded"
+        }
+      ],
+      "members-lebanon": [
+        {
+          "name": "Louis",
+          "title": "Trainer at Recoded"
+        },
+        {
+          "name": "Jaime",
+          "title": "Program manager at Recoded"
+        },
+        {
+          "name": "Lars",
+          "title": "Communication manager at Recoded"
+        }
+      ]
+    },
     "aboutPageCTA": {
       "title": "Share your story, help others and get help from others",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa quo obcaecati fuga adipisci? Pariatur perspiciatis reiciendis exercitationem expedita, quam dolor vitae suscipit dolore, minima adipisci qui est unde dolorem.",
       "SignUp": "Sign Up"
+    }
+  },
+  "userProfile": {
+    "edit": {
+      "firstName": "First Name:",
+      "lastName": "Last Name:",
+      "location": "Location:",
+      "bio": "Biography:",
+      "save": "Save",
+      "cancele": "Cancele"
     }
   }
 }
