@@ -7,10 +7,12 @@ import Blog from './layout/blog/Index';
 import Contact from './layout/contact';
 import SignUp from './layout/signUp';
 import LogIn from './layout/signIn';
+import Navbar from '../src/components/navbar/Index';
 
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
