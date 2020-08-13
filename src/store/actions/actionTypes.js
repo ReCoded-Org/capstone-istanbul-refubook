@@ -4,3 +4,5 @@ export const SIGN_IN_WITH_Facebook = 'SIGN_IN_WITH_Facebook';
 export const SIGN_IN_WITH_Facebook_ERROR = 'SIGN_IN_WITH_Facebook_ERROR';
 export const LOG_OUT = 'LOG_OUT';
 export const LOG_OUT_ERROR = 'LOG_OUT_ERROR';
+export const SIGN_IN_WITH_EMAIL = 'SIGN_IN_WITH_EMAIL';
+export const SIGN_IN_WITH_EMAIL_ERROR = 'SIGN_IN_WITH_EMAIL_ERROR';

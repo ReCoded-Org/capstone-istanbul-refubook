@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar/Index';
 import { Link, Redirect } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
-import SignUpForm from '../../components/signUpForm/Index';
+// import SignUpForm from '../../components/signUpForm/Index';
 import {
   SignInWithGoogle,
   SignInWithFacebook,
@@ -28,7 +28,7 @@ const SignUp = (props) => {
                 {t('signUp.title')}
               </h1>
             </div>
-            {/* <div className="mt-5 text-center px-8">
+            <div className="mt-5 text-center px-8">
               <Link
                 className="block appearance-none bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded-full"
                 to="/facebook"
@@ -54,8 +54,8 @@ const SignUp = (props) => {
               >
                 {t('signUp.buttonGoogle')}
               </Link>
-            </div> */}
-            <SignUpForm />
+            </div>
+            {/* <SignUpForm /> */}
             <div className="mt-10">
               <Link
                 className="block appearance-none text-gray-400 font-bold py-1 px-3 rounded-full text-center"
@@ -71,7 +71,6 @@ const SignUp = (props) => {
   }
 };
 const mapStateToProps = (state) => {
-  // console.log(state);
   return {
     auth: state.firebase.auth,
   };
