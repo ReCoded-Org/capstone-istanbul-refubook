@@ -19,6 +19,7 @@ export const SignInWithGoogle = (user, ownProps) => {
       .then((result) => {
         // The signed-in user info.
         const user = result.user;
+        console.log(user);
         dispatch({ type: SIGN_IN_WITH_GOOGLE, user });
       })
       .catch((err) => {
