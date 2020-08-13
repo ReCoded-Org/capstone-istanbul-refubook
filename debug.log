@@ -1,0 +1,6 @@
+[0731/231909.448:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0731/231909.448:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0731/231909.472:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0731/231909.472:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0731/231909.472:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0731/231909.472:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.

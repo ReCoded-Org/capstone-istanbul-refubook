@@ -1,15 +1,27 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import Backend from 'i18next-http-backend';
+// import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import common_ar from './locals/ar.json';
+import common_en from './locals/en.json';
 // not like to use this?
 // have a look at the Quick start guide
 // for passing in lng and translations on init
+
+const resources = {
+  en: {
+    translation: common_en,
+  },
+  ar: {
+    translation: common_ar,
+  },
+};
+
 i18n
   // load translation using http -> see /public/locales (i.e. https://github.com/i18next/react-i18next/tree/master/example/react/public/locales)
   // learn more: https://github.com/i18next/i18next-http-backend
-  .use(Backend)
+  // .use(Backend)
   // detect user language
   // learn more: https://github.com/i18next/i18next-browser-languageDetector
   .use(LanguageDetector)
@@ -23,6 +35,10 @@ i18n
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
+    react: {
+      wait: true,
+    },
+    resources,
   });
 
 export default i18n;
