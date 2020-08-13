@@ -7,12 +7,12 @@ function Navbar({ NavbarStyle, Btn }) {
   return (
     <>
       <div className={NavbarStyle}>
-        <div className="mx-auto mt-4 md:mt-1 mb-4 md:mb-1 px-16 flex justify-center items-center flex-shrink-0 text-white justify-center">
-          <Link className="text-blue-600 font-bold text-xl tracking-tight" to="/">
+        <div class="mx-auto mt-4 md:mt-1 mb-4 md:mb-1 px-16 flex justify-center items-center flex-shrink-0 text-white justify-center">
+          <Link class="text-blue-600 font-bold text-xl tracking-tight" to="/">
             Refubook
           </Link>
         </div>
-        <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <ul className="flex justify-center">
             <li className="mr-6">
               <Link className="text-gray-500 hover:text-blue-600" to="/">
