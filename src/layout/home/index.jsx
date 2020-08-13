@@ -1,16 +1,17 @@
 import React from 'react';
-import Testimonial from '../../components/testimonials/Index';
-import Hero from '../../components/hero/Hero';
-import Footer from '../../components/footer/Footer';
+import LatestStories from '../../components/latestStories/Index';
+import i18next from 'i18next';
 
-const Home = () => {
+const Home = ({ t }) => {
+  const changeLanguage = (lng) => {
+    i18next.changeLanguage(lng);
+  };
   return (
     <>
-      <Hero />
-      <Testimonial />
-      <Footer />
+      <LatestStories />
+      <button onClick={() => changeLanguage('en')}>Eng</button>
+      <button onClick={() => changeLanguage('ar')}>Ar</button>
     </>
   );
 };
-
 export default Home;
