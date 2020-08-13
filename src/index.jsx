@@ -1,7 +1,8 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
+import 'firebase/auth';
+import 'firebase/firestore';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
@@ -21,7 +22,7 @@ const store = createStore(
 );
 const rrfConfig = {
   userProfile: 'users',
-  // useFirestoreForProfile: true //Firestore for Profile instead of Realtime DB
+  useFirestoreForProfile: true, //Firestore for Profile instead of Realtime DB
 };
 const rrfProps = {
   firebase,
