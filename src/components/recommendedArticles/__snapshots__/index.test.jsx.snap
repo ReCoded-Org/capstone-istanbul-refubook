@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Blog page renders correctly 1`] = `
+exports[`RecommendedArticles renders correctly 1`] = `
 <div
   className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 "
 >
   <div
-    className="py-4 flex justify-center items-center"
+    className="py-8 px-4 flex justify-center items-center"
   >
     <div
       className="max-w-sm rounded overflow-hidden shadow-md"
@@ -54,7 +54,7 @@ exports[`Blog page renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="py-4 flex justify-center items-center"
+    className="py-8 px-4 flex justify-center items-center"
   >
     <div
       className="max-w-sm rounded overflow-hidden shadow-md"
@@ -103,7 +103,7 @@ exports[`Blog page renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="py-4 flex justify-center items-center"
+    className="py-8 px-4 flex justify-center items-center"
   >
     <div
       className="max-w-sm rounded overflow-hidden shadow-md"
@@ -152,7 +152,7 @@ exports[`Blog page renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="py-4 flex justify-center items-center"
+    className="py-8 px-4 flex justify-center items-center"
   >
     <div
       className="max-w-sm rounded overflow-hidden shadow-md"
@@ -201,7 +201,7 @@ exports[`Blog page renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="py-4 flex justify-center items-center"
+    className="py-8 px-4 flex justify-center items-center"
   >
     <div
       className="max-w-sm rounded overflow-hidden shadow-md"
@@ -250,7 +250,7 @@ exports[`Blog page renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="py-4 flex justify-center items-center"
+    className="py-8 px-4 flex justify-center items-center"
   >
     <div
       className="max-w-sm rounded overflow-hidden shadow-md"
