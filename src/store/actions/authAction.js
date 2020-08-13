@@ -1,5 +1,4 @@
 import { googleProvider, facebookProvider } from '../../config/firebaseConfig';
-import { browserHistory } from 'react-router';
 
 import {
   SIGN_IN_WITH_Facebook,
