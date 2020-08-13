@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar/Index';
 import { Link, Redirect } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
-
+import SignUpForm from '../../components/signUpForm/Index';
 import {
   SignInWithGoogle,
   SignInWithFacebook,
@@ -21,14 +21,14 @@ const SignUp = (props) => {
         <div className="relative">
           <Navbar NavbarStyle={NavbarStyle} Btn={Btn} />
         </div>
-        <div className="h-screen bg-blue-200 mx-auto p-2">
+        <div className="h-full bg-blue-200 mx-auto p-2">
           <div className="max-w-md mx-auto my-24 bg-white px-5 py-10 rounded-lg shadow-xl">
             <div className="text-center mb-8">
               <h1 className=" text-blue-600 font-bold text-2xl font-bold">
                 {t('signUp.title')}
               </h1>
             </div>
-            <div className="mt-5 text-center px-8">
+            {/* <div className="mt-5 text-center px-8">
               <Link
                 className="block appearance-none bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded-full"
                 to="/facebook"
@@ -54,7 +54,8 @@ const SignUp = (props) => {
               >
                 {t('signUp.buttonGoogle')}
               </Link>
-            </div>
+            </div> */}
+            <SignUpForm />
             <div className="mt-10">
               <Link
                 className="block appearance-none text-gray-400 font-bold py-1 px-3 rounded-full text-center"

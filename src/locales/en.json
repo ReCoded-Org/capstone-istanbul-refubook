@@ -5,5 +5,15 @@
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa quo obcaecati fuga adipisci? Pariatur perspiciatis reiciendis exercitationem expedita, quam dolor vitae suscipit dolore, minima adipisci qui est unde dolorem.",
       "SignUp": "Sign Up"
     }
+  },
+  "signUp": {
+    "firstName": "First Name:",
+    "lastName": "Last Name:",
+    "email": "Email:",
+    "password": "Password:",
+    "city": "City:",
+    "bio": "Biography:",
+    "bioPlaceHolder": "Bio should not be more than 140 characters.",
+    "signUpBtn": "Sign Up"
   }
 }
