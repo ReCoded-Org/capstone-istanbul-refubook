@@ -102,7 +102,7 @@
     "bio": "نبذة:",
     "bioPlaceHolder": "النبذة يجب ألا تتجاوز 140 حرف",
     "signUpBtn": "تسجيل حساب"
-  }
+  },
   "userProfile": {
     "edit": {
       "firstName": "الاسم:",
