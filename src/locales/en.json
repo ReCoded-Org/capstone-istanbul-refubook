@@ -107,5 +107,15 @@
       "message": "Message:",
       "submit": "Submit"
     }
+  },
+  "userProfile": {
+    "edit": {
+      "firstName": "First Name:",
+      "lastName": "Last Name:",
+      "location": "Location:",
+      "bio": "Biography:",
+      "save": "Save",
+      "cancele": "Cancele"
+    }
   }
 }

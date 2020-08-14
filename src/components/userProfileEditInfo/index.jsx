@@ -73,6 +73,7 @@ const UserProfileEdit = () => {
             required
             name="biography"
             cols="30"
+            maxLength="140"
             rows="3"
             className="shadow appearance-none border rounded w-full py-2 px-3 text-blue-700 leading-tight focus:outline-none focus:shadow-outline"
           ></textarea>

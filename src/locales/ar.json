@@ -105,5 +105,15 @@
       "message": "الرسالة:",
       "submit": "إرسال"
     }
+  },
+  "userProfile": {
+    "edit": {
+      "firstName": "الاسم:",
+      "lastName": "الكنية:",
+      "location": "المكان",
+      "bio": "نبذة",
+      "save": "حفظ",
+      "cancele": "إلغاء"
+    }
   }
 }
