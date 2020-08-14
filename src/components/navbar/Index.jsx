@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-function Navbar({ NavbarStyle, Btn }) {
+function Navbar() {
   const { t } = useTranslation();
   return (
     <>
@@ -39,7 +39,7 @@ function Navbar({ NavbarStyle, Btn }) {
         <div className="mx-auto mt-4 md:mt-1 px-16">
           <div className="inline-block relative w-34">
             <div className="inline-block">
-              <div className={Btn}>
+              <div>
                 <Link
                   className="justify-center block appearance-none bg-blue-600 hover:bg-blue-700 text-white font-bold py-1 px-4 text-center rounded-full"
                   to="/signup"
