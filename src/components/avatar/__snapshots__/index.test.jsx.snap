@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar page renders correctly 1`] = `
+<div
+  className="flex flex-col justify-center mt-10 mx-auto"
+>
+  <div
+    className="flex relative w-24 h-24 bg-orange-500 justify-center items-center m-1 mr-2 text-xl rounded-full text-white"
+  >
+    <img
+      alt="A"
+      className="rounded-full"
+      src="https://via.placeholder.com/150"
+    />
+    <button
+      className="flex items-center justify-around p-0 w-8 h-8 bg-blue-400 rounded-full absolute bottom-0 right-0 hover:bg-blue-600 active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none"
+    >
+      <img
+        alt="edit Icon"
+        className="w-4 h-4 inline-block fill-current text-blue-100"
+        src="editIcon.svg"
+      />
+    </button>
+  </div>
+  <p>
+    Jonathan Reinink
+  </p>
+</div>
+`;

@@ -104,6 +104,20 @@
     "bioPlaceHolder": "Bio should not be more than 140 characters.",
     "signUpBtn": "Sign Up"
   },
+  "contact": {
+    "title": "Contact",
+    "description": "Contact Refuebook project",
+
+    "heading": "Get In Touch",
+    "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit harum mollitia.",
+
+    "formLabels": {
+      "name": "Name:",
+      "email": "Email:",
+      "message": "Message:",
+      "submit": "Submit"
+    }
+  },
   "userProfile": {
     "edit": {
       "firstName": "First Name:",

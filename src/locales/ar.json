@@ -103,6 +103,20 @@
     "bioPlaceHolder": "النبذة يجب ألا تتجاوز 140 حرف",
     "signUpBtn": "تسجيل حساب"
   },
+  "contact": {
+    "title": "التواصل",
+    "description": "التواصل مع مشروع refubook",
+
+    "heading": "تواصل معنا",
+    "paragraph": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة",
+
+    "formLabels": {
+      "name": "الاسم:",
+      "email": "البريد الإلكتروني:",
+      "message": "الرسالة:",
+      "submit": "إرسال"
+    }
+  },
   "userProfile": {
     "edit": {
       "firstName": "الاسم:",
