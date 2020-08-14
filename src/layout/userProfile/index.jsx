@@ -1,4 +1,5 @@
 import React from 'react';
+import UserProfileEdit from '../../components/userProfileEditInfo/index';
 import Navbar from '../../components/navbar/Index';
 import editIcon from '../../assets/editIcon.svg';
 import Carousel from '../../components/carousel/Index';
@@ -38,6 +39,9 @@ const UserProfile = () => {
             />
           </div>
         </div>
+      </div>
+      <div>
+        <UserProfileEdit />
       </div>
     </>
   );
