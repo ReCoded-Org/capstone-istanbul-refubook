@@ -1,16 +1,11 @@
 import React from 'react';
-import Testimonial from '../../components/testimonials/Index';
-import Hero from '../../components/hero/Hero';
-import Footer from '../../components/footer/Footer';
+import LatestStories from '../../components/latestStories/Index';
 
 const Home = () => {
   return (
     <>
-      <Hero />
-      <Testimonial />
-      <Footer />
+      <LatestStories />
     </>
   );
 };
-
 export default Home;
