@@ -103,7 +103,7 @@
     "bio": "Biography:",
     "bioPlaceHolder": "Bio should not be more than 140 characters.",
     "signUpBtn": "Sign Up"
-}
+  },
   "userProfile": {
     "edit": {
       "firstName": "First Name:",
