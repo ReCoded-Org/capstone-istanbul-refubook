@@ -1,9 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { connect } from 'react-redux';
 
-const LogIn = () => {
+import {
+  SignInWithGoogle,
+  SignInWithFacebook,
+} from '../../store/actions/authAction';
+const LogIn = (props) => {
   const { t } = useTranslation();
+  if (props.auth.uid) return <Redirect to="/" />;
+
   return (
     <>
       <div className="h-screen bg-blue-200 mx-auto p-2">
@@ -14,7 +21,13 @@ const LogIn = () => {
             </h1>
           </div>
           <div className="mt-5 text-center px-8">
-            <button className="focus:outline-none w-64 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <button
+              className="block appearance-none bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded-full"
+              onClick={(e) => {
+                e.preventDefault();
+                props.onSignInFacebook();
+              }}
+            >
               {t('logIn.buttonFacebook')}
             </button>
           </div>
@@ -22,7 +35,13 @@ const LogIn = () => {
             <p className="text-center text-gray-400 font-bold">{t('logIn.or')}</p>
           </div>
           <div className="mt-5 text-center px-8">
-            <button className="focus:outline-none w-64 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full">
+            <button
+              className="block appearance-none bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-2 rounded-full"
+              onClick={(e) => {
+                e.preventDefault();
+                props.onSignInGoogle();
+              }}
+            >
               {t('logIn.buttonGoogle')}
             </button>
           </div>
@@ -39,5 +58,16 @@ const LogIn = () => {
     </>
   );
 };
-
-export default LogIn;
+const mapStateToProps = (state) => {
+  // console.log(state);
+  return {
+    auth: state.firebase.auth,
+  };
+};
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onSignInGoogle: () => dispatch(SignInWithGoogle()),
+    onSignInFacebook: () => dispatch(SignInWithFacebook()),
+  };
+};
+export default connect(mapStateToProps, mapDispatchToProps)(LogIn);
