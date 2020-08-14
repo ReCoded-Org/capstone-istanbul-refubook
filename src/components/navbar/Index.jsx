@@ -31,7 +31,7 @@ function Navbar(props) {
   }
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-center md:justify-between flex-wrap bg-white p-4">
+      <div className="z-10 flex flex-col md:flex-row items-center justify-center md:justify-between flex-wrap bg-transparent p-4">
         <div className="mx-auto mt-4 md:mt-1 mb-4 md:mb-1 px-16 flex justify-center items-center flex-shrink-0 text-white justify-center">
           <Link className="text-blue-600 font-bold text-xl tracking-tight" to="/">
             Refubook

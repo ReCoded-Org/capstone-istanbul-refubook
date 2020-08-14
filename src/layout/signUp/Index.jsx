@@ -23,7 +23,7 @@ const SignUp = (props) => {
             </div>
             <div className="mt-5 text-center px-8">
               <button
-                className="block appearance-none bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded-full"
+                className="focus:outline-none w-64 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
                 onClick={(e) => {
                   e.preventDefault();
                   props.onSignInFacebook();
@@ -37,7 +37,7 @@ const SignUp = (props) => {
             </div>
             <div className="mt-5 text-center px-8">
               <button
-                className=" block appearance-none bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-2 rounded-full"
+                className="focus:outline-none w-64 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full"
                 onClick={(e) => {
                   e.preventDefault();
                   props.onSignInGoogle();
