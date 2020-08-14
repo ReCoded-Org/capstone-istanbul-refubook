@@ -1,12 +1,13 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
+import 'firebase/auth';
+import 'firebase/firestore';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { getFirebase, ReactReduxFirebaseProvider } from 'react-redux-firebase';
-import { createFirestoreInstance } from 'redux-firestore';
+import { createFirestoreInstance, getFirestore } from 'redux-firestore';
 import firebase from './config/firebaseConfig';
 import rootReducer from './store/reducers/rootReducer';
 import App from './App';
@@ -17,11 +18,11 @@ import './i18n';
 
 const store = createStore(
   rootReducer,
-  applyMiddleware(thunk.withExtraArgument({ getFirebase }))
+  applyMiddleware(thunk.withExtraArgument({ getFirebase, getFirestore }))
 );
 const rrfConfig = {
   userProfile: 'users',
-  // useFirestoreForProfile: true //Firestore for Profile instead of Realtime DB
+  useFirestoreForProfile: true, //Firestore for Profile instead of Realtime DB
 };
 const rrfProps = {
   firebase,

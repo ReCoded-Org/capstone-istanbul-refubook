@@ -92,6 +92,17 @@
       "SignUp": "التسجيل"
     }
   },
+
+  "signUp": {
+    "firstName": "الاسم الأول",
+    "lastName": "الاسم الأخير/الكنية",
+    "email": "البريد الإلكتروني:",
+    "password": "كلمة السر:",
+    "city": "المدينة:",
+    "bio": "نبذة:",
+    "bioPlaceHolder": "النبذة يجب ألا تتجاوز 140 حرف",
+    "signUpBtn": "تسجيل حساب"
+  },
   "contact": {
     "title": "التواصل",
     "description": "التواصل مع مشروع refubook",

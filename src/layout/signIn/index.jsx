@@ -1,13 +1,20 @@
 import React from 'react';
 import Navbar from '../../components/navbar/Index';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { connect } from 'react-redux';
 
-const LogIn = () => {
+import {
+  SignInWithGoogle,
+  SignInWithFacebook,
+} from '../../store/actions/authAction';
+const LogIn = (props) => {
   const { t } = useTranslation();
   const NavbarStyle =
     'z-10 flex flex-col md:flex-row items-center justify-center md:justify-between flex-wrap bg-transparent p-4';
   const Btn = 'hidden';
+  if (props.auth.uid) return <Redirect to="/" />;
+
   return (
     <>
       <div className="relative">
@@ -24,6 +31,10 @@ const LogIn = () => {
             <Link
               className="block appearance-none bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded-full"
               to="/facebook"
+              onClick={(e) => {
+                e.preventDefault();
+                props.onSignInFacebook();
+              }}
             >
               {t('logIn.buttonFacebook')}
             </Link>
@@ -35,6 +46,10 @@ const LogIn = () => {
             <Link
               className="block appearance-none bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-2 rounded-full"
               to="/google"
+              onClick={(e) => {
+                e.preventDefault();
+                props.onSignInGoogle();
+              }}
             >
               {t('logIn.buttonGoogle')}
             </Link>
@@ -52,5 +67,16 @@ const LogIn = () => {
     </>
   );
 };
-
-export default LogIn;
+const mapStateToProps = (state) => {
+  // console.log(state);
+  return {
+    auth: state.firebase.auth,
+  };
+};
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onSignInGoogle: () => dispatch(SignInWithGoogle()),
+    onSignInFacebook: () => dispatch(SignInWithFacebook()),
+  };
+};
+export default connect(mapStateToProps, mapDispatchToProps)(LogIn);

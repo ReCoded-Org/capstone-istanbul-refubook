@@ -94,6 +94,16 @@
       "SignUp": "Sign Up"
     }
   },
+  "signUp": {
+    "firstName": "First Name:",
+    "lastName": "Last Name:",
+    "email": "Email:",
+    "password": "Password:",
+    "city": "City:",
+    "bio": "Biography:",
+    "bioPlaceHolder": "Bio should not be more than 140 characters.",
+    "signUpBtn": "Sign Up"
+  },
   "contact": {
     "title": "Contact",
     "description": "Contact Refuebook project",
