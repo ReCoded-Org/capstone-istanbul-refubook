@@ -16,7 +16,7 @@ function Navbar(props) {
           props.logOut();
         }}
       >
-        {t('navbar.title6')}
+        {t('links.logOut')}
       </Link>
     );
   } else {
@@ -25,7 +25,7 @@ function Navbar(props) {
         className="justify-center block appearance-none bg-blue-600 hover:bg-blue-700 text-white font-bold py-1 px-4 text-center rounded-full"
         to="/signup"
       >
-        {t('navbar.title5')}
+        {t('links.signUp')}
       </Link>
     );
   }
@@ -41,22 +41,22 @@ function Navbar(props) {
           <ul className="flex justify-center">
             <li className="mr-6">
               <Link className="text-gray-500 hover:text-blue-600" to="/">
-                {t('navbar.title1')}
+                {t('links.home')}
               </Link>
             </li>
             <li className="mr-6">
               <Link className="text-gray-500 hover:text-blue-600" to="/about">
-                {t('navbar.title2')}
+                {t('links.about')}
               </Link>
             </li>
             <li className="mr-6">
               <Link className="text-gray-500 hover:text-blue-600" to="/contact">
-                {t('navbar.title3')}
+                {t('links.contact')}
               </Link>
             </li>
             <li>
               <Link className="text-gray-500 hover:text-blue-600" to="/blog">
-                {t('navbar.title4')}
+                {t('links.blog')}
               </Link>
             </li>
           </ul>

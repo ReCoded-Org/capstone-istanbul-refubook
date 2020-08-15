@@ -1,90 +1,193 @@
 {
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "signUp": "Sign up",
+    "logOut": "logout"
+  },
+  "home": {
+    "hero": {
+      "title": "Refubook",
+      "subtitle": "Express Freely",
+      "content": "Share your stories and experiences, expand your ideas freely and read other's stories, all under one website.",
+      "button": "Sign Up"
+    },
+    "about-section": {
+      "title": "About Us",
+      "content": "Refubook is one of Columbia university projects, it aims to help refugees help each others by writing their experiences and ideas.",
+      "button": "Learn More",
+      "featuresItem": {
+        "reliability": "Reliability",
+        "motivation": "Motivation",
+        "efficiency": "Efficiency",
+        "creativity": "Creativity",
+        "socialCommunication": "Social Communication",
+        "valuableIdeas": "Valuable Ideas",
+        "experiences": "Experiences",
+        "friendlyCommunity": "Friendly Community"
+      },
+      "featuresContent": {
+        "reliability": "Reliability in statistics and psychometrics is the overall consistency of a measure.",
+        "motivation": "DescriptionMotivation is the experience of desire or aversion. As such, motivation has both an objective aspect and an internal or subjective aspect.",
+        "efficiency": "DescriptionEfficiency is the amount of divisions ordered from a task. In more mathematical or scientific terms.",
+        "creativity": "Creativity is a phenomenon whereby something new and somehow valuable is formed. The created item may be intangible or a physical object.",
+        "socialCommunication": "Social Communication refers to language that is used in social situations. This refers to a child's ability to use language to interact with others in a variety of situations.",
+        "valuableIdeas": "Everyone is looking for valuable ideas. Those ideas that have the power to change the way you think, act or see the world.",
+        "experiences": "DescriptionExperience is the process through which conscious organisms perceive the world around them.",
+        "friendlyCommunity": "Enables people from all conflict-effected countris to actively participate in community activities and treats everyone with respect, regardless of their nationalities or ethnicities."
+      }
+    },
+    "stories-section": {
+      "title": "Latest Stories",
+      "subtitle": "Discover the newest article written by an experinced refugees, take advantages of it or share your feedback with them.",
+      "cat-label": {
+        "language": "Language",
+        "jobs": "Jobs"
+      }
+    }
+  },
   "about": {
     "title": "About",
     "discreption": "About page",
+    "section-title": "About the project",
+    "section-content": "REACH is a regional initiative of the Center for Sustainable Development at Columbia University which aims to bridge the gap in health literacy and health care access among refugee and local youth living in Turkey and Lebanon, and it is implemented in partnership with the Columbia Global Center in Istanbul as well as universities and NGOs supporting refugee and youth health initiatives in Turkey and Lebanon.",
 
     "team": {
-      "heading": "The Team",
+      "heading": "Our Team",
       "countries": ["View All", "USA", "Turkey", "Lebanon"],
 
       "members-all": [
         {
-          "name": "John",
-          "title": "Harvard university ceo"
+          "name": "Dr. Yanis Ben Amor",
+          "title": "Columbia University, Center for Sustainable Development"
         },
         {
-          "name": "Sarah",
-          "title": "any title for test"
+          "name": "Dr. Ozge Karadag Caman",
+          "title": "Columbia University, Center for Sustainable Development"
         },
         {
-          "name": "Ahmad",
-          "title": "not a title for test"
+          "name": "Eylem Nazli Tasdemir",
+          "title": "Columbia Global Center, Istanbul"
         },
         {
-          "name": "Khaled",
-          "title": "ACMP head engineer"
+          "name": "Dr. Selma Karabey",
+          "title": "Istanbul University, Faculty of Medicine"
         },
         {
-          "name": "Mohamad",
-          "title": "ACMP ceo"
+          "name": "Inanc Sumbuloglu",
+          "title": "Bir IZ Association"
         },
         {
-          "name": "Ammar",
-          "title": "Trainer at Recoded"
+          "name": "Laleper Aytekin",
+          "title": "Consultant"
         },
         {
-          "name": "Louis",
-          "title": "Trainer at Recoded"
+          "name": "Damla İkbal Ceyhan",
+          "title": "Young Researcher"
         },
         {
-          "name": "Jaime",
-          "title": "Program manager at Recoded"
+          "name": "Mahmut Aliboz",
+          "title": "Young Researcher"
         },
         {
-          "name": "Lars",
-          "title": "Communication manager at Recoded"
+          "name": "Ali Ihsan Nergiz",
+          "title": "Young Researcher"
         }
       ],
       "members-usa": [
         {
-          "name": "John",
-          "title": "Harvard university ceo"
+          "name": "Erva Nur Cinar",
+          "title": "Young Researcher"
         },
         {
-          "name": "Sarah",
-          "title": "any title for test"
+          "name": "Yamama Shahid",
+          "title": "Young Researcher"
+        },
+        {
+          "name": "Roukaya Alşami",
+          "title": "Young Researcher"
+        },
+        {
+          "name": "Hasan Faruk Hazar",
+          "title": "Young Researcher"
+        },
+        {
+          "name": "İlias Jalal Shawkat",
+          "title": "Young Researcher"
+        },
+        {
+          "name": "Noor Almasri",
+          "title": "Young Researcher"
+        },
+        {
+          "name": "Ahmet Yasir Mutlu",
+          "title": "Young Researcher"
+        },
+        {
+          "name": "Harun Ayas",
+          "title": "Youth Group Member"
         }
       ],
       "members-turkey": [
         {
-          "name": "Ahmad",
-          "title": "not a title for test"
+          "name": "Gökberk Kam",
+          "title": "Youth Group Member"
         },
         {
-          "name": "Khaled",
-          "title": "ACMP head engineer"
+          "name": "Rana Mengü",
+          "title": "Youth Group Member"
         },
         {
-          "name": "Mohamad",
-          "title": "ACMP ceo"
+          "name": "Selver Durdu",
+          "title": "Youth Group Member"
         },
         {
-          "name": "Ammar",
-          "title": "Trainer at Recoded"
+          "name": "Berrak Güloğlu",
+          "title": "Youth Group Member"
+        },
+        {
+          "name": "Alan Eibrahim",
+          "title": "Youth Group Member"
+        },
+        {
+          "name": "Muhammed Kenan",
+          "title": "Youth Group Member"
+        },
+        {
+          "name": "Ahmet Talip",
+          "title": "Youth Group Member"
         }
       ],
       "members-lebanon": [
         {
-          "name": "Louis",
-          "title": "Trainer at Recoded"
+          "name": "Waleed Wlo",
+          "title": "Youth Group Member"
         },
         {
-          "name": "Jaime",
-          "title": "Program manager at Recoded"
+          "name": "Şeyma Suleym",
+          "title": "Youth Group Member"
         },
         {
-          "name": "Lars",
-          "title": "Communication manager at Recoded"
+          "name": "Marwa Alyatim",
+          "title": "Youth Group Member"
+        },
+        {
+          "name": "Abdulhadi Khatib",
+          "title": "Youth Group Member"
+        },
+        {
+          "name": "Munir Altamer",
+          "title": "Youth Group Member"
+        },
+        {
+          "name": "Ali İdris",
+          "title": "Youth Group Member"
+        },
+        {
+          "name": "Huseyin Almahmud",
+          "title": "Youth Group Member"
         }
       ]
     },
@@ -95,6 +198,11 @@
     }
   },
   "signUp": {
+    "title": "Sign up to Refubook",
+    "buttonFacebook": "Facebook",
+    "or": "OR",
+    "buttonGoogle": "Google",
+    "logIn": "Already a member? Log in",
     "firstName": "First Name:",
     "lastName": "Last Name:",
     "email": "Email:",
@@ -103,6 +211,13 @@
     "bio": "Biography:",
     "bioPlaceHolder": "Bio should not be more than 140 characters.",
     "signUpBtn": "Sign Up"
+  },
+  "logIn": {
+    "title": "Log in to Refubook",
+    "buttonFacebook": "Facebook",
+    "or": "OR",
+    "buttonGoogle": "Google",
+    "signUp": "Want to be a member? Sign up"
   },
   "contact": {
     "title": "Contact",

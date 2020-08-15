@@ -15,7 +15,7 @@ const TeamSection = () => {
                 return (
                   <Tab
                     key={index}
-                    className="text-sm md:text-base mr-2 md:mr-8 rounded-full py-1 px-4 font-medium"
+                    className="cursor-pointer text-sm md:text-base mr-2 md:mr-8 rounded-full py-1 px-4 font-medium"
                   >
                     {country}
                   </Tab>

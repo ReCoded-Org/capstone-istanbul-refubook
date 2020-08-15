@@ -44,25 +44,25 @@ export const OurProductsCarouselSettings = {
 
 export const ourPartnersInfo = [
   <div>
-    <img alt="our Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
+    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
   </div>,
   <div>
-    <img alt="our Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
+    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
   </div>,
   <div>
-    <img alt="our Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
+    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
   </div>,
   <div>
-    <img alt="our Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
+    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
   </div>,
   <div>
-    <img alt="our Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
+    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
   </div>,
   <div>
-    <img alt="our Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
+    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
   </div>,
   <div>
-    <img alt="our Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
+    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={WorldMap} />
   </div>,
 ];
 export const testimonialsInfo = [
