@@ -13,6 +13,7 @@ import LogIn from './layout/signIn';
 function App() {
   return (
     <BrowserRouter>
+      {/* add navbar here */}
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
@@ -22,6 +23,7 @@ function App() {
         <Route path="/signup" component={SignUp} />
         <Route path="/login" component={LogIn} />
       </Switch>
+      {/* add footer here */}
     </BrowserRouter>
   );
 }

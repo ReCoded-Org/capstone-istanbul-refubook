@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar/Index';
 import AboutPageCover from '../../components/aboutPageCover/Index';
 import AboutUs from '../../components/aboutPageAboutUs/Index';
 import TeamSection from '../../components/teamSection/index';
+import AboutCTA from '../../components/aboutCTA';
 const About = () => {
   const NavbarStyle =
     'z-10 flex flex-col md:flex-row items-center justify-center md:justify-between flex-wrap bg-transparent p-4';
@@ -14,6 +15,7 @@ const About = () => {
       <AboutPageCover />
       <AboutUs />
       <TeamSection />
+      <AboutCTA />
     </>
   );
 };

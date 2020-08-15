@@ -2,13 +2,20 @@ import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'firebase/auth';
+import 'firebase/database';
 import 'firebase/firestore';
-import { createStore, applyMiddleware } from 'redux';
+import firebase from 'firebase/app';
+
+import { createStore, applyMiddleware, compose } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { getFirebase, ReactReduxFirebaseProvider } from 'react-redux-firebase';
-import { createFirestoreInstance, getFirestore } from 'redux-firestore';
-import firebase from './config/firebaseConfig';
+import {
+  createFirestoreInstance,
+  getFirestore,
+  reduxFirestore,
+} from 'redux-firestore';
+import firebaseConfig from './config/firebaseConfig';
 import rootReducer from './store/reducers/rootReducer';
 import App from './App';
 import './i18n';
@@ -18,7 +25,10 @@ import './i18n';
 
 const store = createStore(
   rootReducer,
-  applyMiddleware(thunk.withExtraArgument({ getFirebase, getFirestore }))
+  compose(
+    applyMiddleware(thunk.withExtraArgument({ getFirebase, getFirestore })),
+    reduxFirestore(firebase, firebaseConfig)
+  )
 );
 const rrfConfig = {
   userProfile: 'users',
