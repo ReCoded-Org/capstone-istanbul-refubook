@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { ReactComponent as Camera } from '../../assets/camera.svg';
 import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
-import { compose } from 'redux';
-import { firestoreConnect } from 'react-redux-firebase';
 
 import { changeBioAndLoc } from '../../store/actions/authAction';
 const UserProfileEdit = (props) => {
@@ -144,7 +142,4 @@ const mapDispatchToProps = (dispatch) => {
     changeUserBioAndLoc: (newInfo) => dispatch(changeBioAndLoc(newInfo)),
   };
 };
-export default compose(
-  firestoreConnect(() => ['test']),
-  connect(mapStateToProps, mapDispatchToProps)
-)(UserProfileEdit);
+export default connect(mapStateToProps, mapDispatchToProps)(UserProfileEdit);
