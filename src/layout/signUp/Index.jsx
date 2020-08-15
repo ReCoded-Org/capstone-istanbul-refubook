@@ -14,7 +14,7 @@ const SignUp = (props) => {
   else {
     return (
       <>
-        <div className="h-full bg-blue-200 mx-auto p-2">
+        <div className="h-screen bg-blue-200 mx-auto p-2">
           <div className="max-w-md mx-auto my-24 bg-white px-5 py-10 rounded-lg shadow-xl">
             <div className="text-center mb-8">
               <h1 className=" text-blue-600 font-bold text-2xl font-bold">
