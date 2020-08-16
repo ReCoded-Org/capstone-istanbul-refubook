@@ -5,11 +5,9 @@ import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Index';
 import LatestStories from '../../components/latestStories/Index';
 const Home = () => {
-  const NavbarStyle =
-    'flex flex-col md:flex-row items-center justify-center md:justify-between flex-wrap bg-white p-4';
   return (
     <>
-      <Navbar NavbarStyle={NavbarStyle} />
+      <Navbar/>
       <Hero />
       <Testimonial />
       <LatestStories />
