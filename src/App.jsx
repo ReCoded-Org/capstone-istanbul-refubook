@@ -8,7 +8,6 @@ import Blog from './layout/blog/Index';
 import Contact from './layout/contact';
 import SignUp from './layout/signUp/Index';
 import LogIn from './layout/signIn/index';
-import Navbar from '../src/components/navbar/Index';
 
 function App() {
   return (
