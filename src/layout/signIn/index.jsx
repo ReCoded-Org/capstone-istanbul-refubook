@@ -50,6 +50,7 @@ const LogIn = (props) => {
               className="block appearance-none text-gray-400 font-bold py-1 px-3 rounded-full text-center"
               to="/signup"
             >
+              {/* //test */}
               {t('logIn.signUp')}
             </Link>
           </div>
