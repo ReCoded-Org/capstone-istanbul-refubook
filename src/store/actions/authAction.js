@@ -9,6 +9,7 @@ import {
   LOG_OUT_ERROR,
   SIGN_IN_WITH_EMAIL,
   SIGN_IN_WITH_EMAIL_ERROR,
+  CHANGE_BIO_OR_LOC,
 } from './actionTypes';
 export const SignInWithGoogle = (user, ownProps) => {
   return (dispatch, getState, { getFirebase }) => {
@@ -104,5 +105,28 @@ export const changeEmail = () => {
         console.log(err);
         dispatch({ type: SIGN_IN_WITH_EMAIL_ERROR, err });
       });
+  };
+};
+
+export const changeBioAndLoc = (userNewInfo) => {
+  return (dispatch, getState, { getFirebase, getFirestore }) => {
+    const firebase = getFirebase();
+    const fireStore = getFirebase().firestore();
+    const user = firebase.auth().currentUser;
+    if (user) {
+      dispatch({ type: CHANGE_BIO_OR_LOC });
+      return fireStore
+        .collection('users')
+        .doc(user.uid)
+        .set({
+          name: `${userNewInfo.firstName} ${userNewInfo.lastName}`,
+          email: user.email,
+          photoUrl: user.photoURL,
+          emailVerified: user.emailVerified,
+          uid: user.uid,
+          bio: userNewInfo.bio,
+          location: userNewInfo.location,
+        });
+    }
   };
 };

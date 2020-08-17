@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { signUp, changeEmail } from '../../store/actions/authAction';
+// import { signUp, changeEmail } from '../../store/actions/authAction';
 import { connect } from 'react-redux';
 const SignUpForm = (props) => {
   const { t } = useTranslation();
@@ -143,7 +143,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     onSignIn: (credentials) => dispatch(signUp(credentials)),
-    onChange: () => dispatch(changeEmail()),
+    // onChange: () => dispatch(changeEmail()),
   };
 };
 export default connect(mapStateToProps, mapDispatchToProps)(SignUpForm);

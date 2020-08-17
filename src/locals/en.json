@@ -1,0 +1,33 @@
+{
+  "navbar": {
+    "title1": "Home",
+    "title2": "About",
+    "title3": "Contact",
+    "title4": "Blog",
+    "title5": "Sign up",
+    "title6": "logout"
+  },
+  "aboutUs": {
+    "title": "About us",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa quo obcaecati fuga adipisci? Pariatur perspiciatis reiciendis exercitationem expedita, quam dolor vitae suscipit dolore, minima adipisci qui est unde dolorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa quo obcaecati fuga adipisci? Pariatur perspiciatis reiciendis exercitationem expedita, quam dolor vitae suscipit dolore, minima adipisci qui est unde dolorem."
+  },
+  "signUp": {
+    "title": "Sign up to Refubook",
+    "buttonFacebook": "Facebook",
+    "or": "OR",
+    "buttonGoogle": "Google",
+    "logIn": "Already a member? Log in"
+  },
+  "logIn": {
+    "title": "Log in to Refubook",
+    "buttonFacebook": "Facebook",
+    "or": "OR",
+    "buttonGoogle": "Google",
+    "signUp": "Want to be a member? Sign up"
+  },
+  "latestStories": {
+    "title": "Latest Stories",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
+    "language": "english"
+  }
+}

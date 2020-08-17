@@ -6,3 +6,6 @@ export const LOG_OUT = 'LOG_OUT';
 export const LOG_OUT_ERROR = 'LOG_OUT_ERROR';
 export const SIGN_IN_WITH_EMAIL = 'SIGN_IN_WITH_EMAIL';
 export const SIGN_IN_WITH_EMAIL_ERROR = 'SIGN_IN_WITH_EMAIL_ERROR';
+export const GET_USER_DATA = 'GET_USER_DATA';
+export const GET_USER_DATA_FAIL = 'GET_USER_DATA_FAIL';
+export const CHANGE_BIO_OR_LOC = 'CHANGE_BIO_OR_LOC';

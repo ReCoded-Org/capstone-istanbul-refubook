@@ -1,17 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ReactComponent as Camera } from '../../assets/camera.svg';
 import { useTranslation } from 'react-i18next';
+import { connect } from 'react-redux';
+import { Redirect } from 'react-router-dom';
 
-const UserProfileEdit = () => {
+import { changeBioAndLoc } from '../../store/actions/authAction';
+const UserProfileEdit = (props) => {
+  console.log(props.auth.uid);
+  const firstNameDemo = props.userInfo.name
+    ? props.userInfo.name.split(' ')[0]
+    : props.auth.displayName.split(' ')[0];
+  const lastNameDemo = props.userInfo.name
+    ? props.userInfo.name.split(' ')[1]
+    : props.auth.displayName.split(' ')[1];
+  const [firstName, setFirstName] = useState(firstNameDemo);
+  const [lastName, setLastName] = useState(lastNameDemo);
+  const [bio, setBio] = useState(props.userInfo.bio);
+  const [location, setLocation] = useState(props.userInfo.location);
+
   const { t } = useTranslation();
+  if (!props.auth.uid) return <Redirect to="/" />;
+
   return (
     <div className="bg-blue-100 h-screen flex flex-col items-center justify-center">
-      <div className="relative md:mb-16 mb-8 flex flex-col items-end">
-        <img
-          src="https://via.placeholder.com/150"
-          className="rounded-full"
-          alt="user"
-        />
+      <div className="relative md:mb-16 mb-8 flex flex-col items-end w-48">
+        <img src={props.auth.photoURL} className="rounded-full" alt="user" />
         <div className="absolute bottom-0 rounded-full bg-blue-600 p-2">
           <Camera className="w-5 text-white fill-current" />
         </div>
@@ -30,6 +43,8 @@ const UserProfileEdit = () => {
                 required
                 type="text"
                 name="first name"
+                value={firstName}
+                onChange={(e) => setFirstName(e.target.value)}
                 className="w-full shadow appearance-none border rounded w-full mb-4 py-2 px-3 text-blue-700 leading-tight focus:outline-none focus:shadow-outline"
               />
             </div>
@@ -44,6 +59,8 @@ const UserProfileEdit = () => {
                 required
                 type="text"
                 name="last name"
+                value={lastName}
+                onChange={(e) => setLastName(e.target.value)}
                 className="w-full shadow appearance-none border rounded w-full mb-4 py-2 px-3 text-blue-700 leading-tight focus:outline-none focus:shadow-outline"
               />
             </div>
@@ -60,6 +77,8 @@ const UserProfileEdit = () => {
               required
               type="text"
               name="location"
+              value={location}
+              onChange={(e) => setLocation(e.target.value)}
               className="w-full shadow appearance-none border rounded w-full mb-4 py-2 px-3 text-blue-700 leading-tight focus:outline-none focus:shadow-outline"
             />
           </div>
@@ -70,7 +89,9 @@ const UserProfileEdit = () => {
             {t('userProfile.edit.bio')}
           </label>
           <textarea
+            onChange={(e) => setBio(e.target.value)}
             required
+            value={bio}
             name="biography"
             cols="30"
             maxLength="140"
@@ -80,7 +101,10 @@ const UserProfileEdit = () => {
           <div className="flex space-between">
             <button
               className="uppercase md:text-base text-sm bg-blue-500 hover:bg-blue-700 text-white font-bold mt-4 mr-4 py-2 md:px-12 px-6 rounded-full focus:outline-none focus:shadow-outline"
-              type="submit"
+              type="button"
+              onClick={() =>
+                props.changeUserBioAndLoc({ location, bio, firstName, lastName })
+              }
             >
               {t('userProfile.edit.save')}
             </button>
@@ -96,5 +120,16 @@ const UserProfileEdit = () => {
     </div>
   );
 };
-
-export default UserProfileEdit;
+const mapStateToProps = (state, ownProps) => {
+  return {
+    auth: state.firebase.auth,
+    userInfo: state.firebase.profile,
+  };
+};
+const mapDispatchToProps = (dispatch) => {
+  console.log(dispatch);
+  return {
+    changeUserBioAndLoc: (newInfo) => dispatch(changeBioAndLoc(newInfo)),
+  };
+};
+export default connect(mapStateToProps, mapDispatchToProps)(UserProfileEdit);

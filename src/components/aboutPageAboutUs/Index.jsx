@@ -9,7 +9,7 @@ function OurStory() {
       <h2 className="text-blue-700 font-bold text-3xl">
         {t('about.section-title')}
       </h2>
-      <p className=" px-12 mx-auto lg:px-40 sm:px-20">
+      <p className=" px-12 mx-auto lg:px-40 sm:px-20 lg:w-3/4">
         {t('about.section-content')}
       </p>
     </div>

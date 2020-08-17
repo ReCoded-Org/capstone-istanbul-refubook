@@ -36,12 +36,28 @@
         "socialCommunication": "Social Communication refers to language that is used in social situations. This refers to a child's ability to use language to interact with others in a variety of situations.",
         "valuableIdeas": "Everyone is looking for valuable ideas. Those ideas that have the power to change the way you think, act or see the world.",
         "experiences": "DescriptionExperience is the process through which conscious organisms perceive the world around them.",
-        "friendlyCommunity": "Enables people from all conflict-effected countris to actively participate in community activities and treats everyone with respect, regardless of their nationalities or ethnicities."
+        "friendlyCommunity": "Enables people from all conflict-affected countries to actively participate in community activities and treats everyone with respect, regardless of their nationalities or ethnicities."
+      }
+    },
+    "testimonials": {
+      "first": {
+        "text": "Now more than ever, access to health for everyone should be within REACH.",
+        "whoSay": "Dr. Yanis Ben Amor",
+        "position": "Columbia University"
+      },
+      "second": {
+        "text": "We hope that the REACH Health App is an impactful digital solution for the youth to access health care facilities",
+        "whoSay": "Imad Hteit",
+        "position": "Poject Manager"
+      },
+      "global-texts": {
+        "testimonial-title": "Testimonials",
+        "partners-title": "Our Partners"
       }
     },
     "stories-section": {
       "title": "Latest Stories",
-      "subtitle": "Discover the newest article written by an experinced refugees, take advantages of it or share your feedback with them.",
+      "subtitle": "Discover the newest articles written by an experinced refugees, take advantages of it or share your feedback with them.",
       "cat-label": {
         "language": "Language",
         "jobs": "Jobs"
@@ -224,7 +240,7 @@
     "description": "Contact Refuebook project",
 
     "heading": "Get In Touch",
-    "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit harum mollitia.",
+    "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit harum mollitia. amet consectetur adipisicing elit ipsum dolor sit.",
 
     "formLabels": {
       "name": "Name:",
@@ -242,5 +258,67 @@
       "save": "Save",
       "cancele": "Cancele"
     }
-  }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "author": {
+        "id": 1,
+        "name": "Jonathan Reinink",
+        "avatar": "https://picsum.photos/seed/picsum/200/300",
+        "profile": "_blank"
+      },
+      "title": "Title Title Title Title Title",
+      "subTitle": "subTitle subTitle subTitle",
+      "image": "https://via.placeholder.com/150",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!",
+      "date": "Aug 18",
+      "dateTime": "2015-05-16 19:00"
+    },
+    {
+      "id": 2,
+      "author": {
+        "id": 2,
+        "name": "Jonathan Reinink",
+        "avatar": "https://picsum.photos/seed/picsum/200/300",
+        "profile": "_blank"
+      },
+      "title": "Title Title Title Title Title",
+      "subTitle": "subTitle subTitle subTitle",
+      "image": "https://via.placeholder.com/150",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!",
+      "date": "Aug 18",
+      "dateTime": "2015-05-16 19:00"
+    },
+    {
+      "id": 3,
+      "author": {
+        "id": 3,
+        "name": "Jonathan Reinink",
+        "avatar": "https://picsum.photos/seed/picsum/200/300",
+        "profile": "_blank"
+      },
+      "title": "Title Title Title Title Title",
+      "subTitle": "subTitle subTitle subTitle",
+      "image": "https://via.placeholder.com/150",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!",
+      "date": "Aug 18",
+      "dateTime": "2015-05-16 19:00"
+    },
+    {
+      "id": 4,
+      "author": {
+        "id": 4,
+        "name": "Jonathan Reinink",
+        "avatar": "https://picsum.photos/seed/picsum/200/300",
+        "profile": "_blank"
+      },
+      "title": "Title Title Title Title Title",
+      "subTitle": "subTitle subTitle subTitle",
+      "image": "https://via.placeholder.com/150",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!",
+      "date": "Aug 18",
+      "dateTime": "2015-05-16 19:00"
+    }
+  ]
 }

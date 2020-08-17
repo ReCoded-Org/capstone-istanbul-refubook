@@ -6,7 +6,7 @@ const TeamSection = () => {
   const { t } = useTranslation();
   return (
     <I18nextProvider>
-      <div className="bg-blue-100 text-center md:min-h-screen min-h-full">
+      <div className="bg-blue-100 text-center py-4 xl:py-8">
         <h2 className="text-blue-800 text-5xl py-8">{t('about.team.heading')}</h2>
         <Tabs selectedTabClassName="transition duration-500 ease-in-out text-white bg-blue-800 ">
           <TabList className="mb-16 md:mb-32 flex justify-center">

@@ -1,12 +1,12 @@
 import React from 'react';
-import BlogsCard from '../components/blogsCard/Index';
+import BlogsCard from '../components/blogsCard/';
 
 export const BlogsCarouselSettings = {
   dots: true,
   infinite: false,
   speed: 500,
-  slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToShow: 3,
+  slidesToScroll: 3,
   initialSlide: 0,
   responsive: [
     {
@@ -37,25 +37,12 @@ export const BlogsCarouselSettings = {
 };
 
 export const BlogsInfo = [
-  <div>
-    <BlogsCard />
-  </div>,
-  <div>
-    <BlogsCard />
-  </div>,
-  <div>
-    <BlogsCard />
-  </div>,
-  <div>
-    <BlogsCard />
-  </div>,
-  <div>
-    <BlogsCard />
-  </div>,
-  <div>
-    <BlogsCard />
-  </div>,
-  <div>
-    <BlogsCard />
-  </div>,
+  <BlogsCard />,
+  <BlogsCard />,
+  <BlogsCard />,
+  <BlogsCard />,
+  <BlogsCard />,
+  <BlogsCard />,
+  <BlogsCard />,
+  <BlogsCard />,
 ];

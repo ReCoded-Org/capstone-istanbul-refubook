@@ -7,12 +7,15 @@ import Home from './layout/home/Index';
 import About from './layout/about/Index';
 import Blog from './layout/blog/Index';
 import Contact from './layout/contact';
-import SignUp from './layout/signUp';
-import LogIn from './layout/signIn';
-
+import SignUp from './layout/signUp/index';
+import LogIn from './layout/signIn/index';
+import Navbar from '../src/components/navbar/Index';
+import SingleBlogPage from './components/singleBlogPage';
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
+
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
@@ -21,6 +24,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/signup" component={SignUp} />
         <Route path="/login" component={LogIn} />
+        <Route path="/singleBlogPage/:id" component={SingleBlogPage} />
       </Switch>
     </BrowserRouter>
   );

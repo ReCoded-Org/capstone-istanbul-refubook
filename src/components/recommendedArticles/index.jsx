@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogsCard from '../blogsCard/Index';
+import BlogsCard from '../blogsCard';
 // recommendedArticlesArray is an array of recommended Articles for the user
 // it should come from the dataBase, and passed to the BlogsCard component
 //ToDO: add blogInfo props to BlogsCard component
