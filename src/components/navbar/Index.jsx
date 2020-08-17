@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
 import { signOut } from '../../store/actions/authAction';
+//import cover from '../../assets/cover.jpg';
 function Navbar(props) {
   const [open, setOpen] = useState(false);
   const toggle = () => setOpen(!open);
+
   const { t } = useTranslation();
   let links = null;
   let account = null;
