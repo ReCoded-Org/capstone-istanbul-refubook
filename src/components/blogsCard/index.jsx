@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
-import SingleBlogPage from '../singleBlogPage';
 
 const BlogsCard = ({ article }) => {
   const { t } = useTranslation();
@@ -36,13 +35,6 @@ const BlogsCard = ({ article }) => {
           </div>
         </div>
       </div>
-      <button
-        onClick={() => {
-          return <SingleBlogPage article={article} />;
-        }}
-      >
-        read more
-      </button>
     </div>
   );
 };
