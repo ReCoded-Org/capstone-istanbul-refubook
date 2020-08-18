@@ -41,13 +41,13 @@
     },
     "testimonials": {
       "first": {
-        "text": "Now more than ever, access to health for everyone should be within REACH.",
-        "whoSay": "Dr. Yanis Ben Amor",
-        "position": "Columbia University"
+        "text": "Now more than ever, access to health for everyone should be within Refubook.",
+        "whoSay": "Dr. Louis Li",
+        "position": "Refu University"
       },
       "second": {
-        "text": "We hope that the REACH Health App is an impactful digital solution for the youth to access health care facilities",
-        "whoSay": "Imad Hteit",
+        "text": "We hope that the Refubook social App is an impactful digital solution for the youth to access health care facilities",
+        "whoSay": "Jaime Mikosh",
         "position": "Poject Manager"
       },
       "global-texts": {
@@ -74,38 +74,38 @@
     "title": "About",
     "discreption": "About page",
     "section-title": "About the project",
-    "section-content": "REACH is a regional initiative of the Center for Sustainable Development at Columbia University which aims to bridge the gap in health literacy and health care access among refugee and local youth living in Turkey and Lebanon, and it is implemented in partnership with the Columbia Global Center in Istanbul as well as universities and NGOs supporting refugee and youth health initiatives in Turkey and Lebanon.",
+    "section-content": "Refubook is a regional initiative of the Center for Sustainable Development at Rfu University which aims to bridge the gap in health literacy and health care access among refugee and local youth living in Turkey and Lebanon, and it is implemented in partnership with the Columbia Global Center in Istanbul as well as universities and NGOs supporting refugee and youth health initiatives in Turkey and Lebanon.",
     "team": {
       "heading": "Our Team",
       "countries": ["View All", "USA", "Turkey", "Lebanon"],
       "members-all": [
         {
-          "name": "Dr. Yanis Ben Amor",
-          "title": "Columbia University, Center for Sustainable Development"
+          "name": "Dr. Louis Li",
+          "title": "Center for Sustainable Development"
         },
         {
-          "name": "Dr. Ozge Karadag Caman",
-          "title": "Columbia University, Center for Sustainable Development"
+          "name": "Dr. Jaime Mikoush",
+          "title": "Center for Sustainable Development"
         },
         {
-          "name": "Eylem Nazli Tasdemir",
-          "title": "Columbia Global Center, Istanbul"
+          "name": "Ammar Sammour",
+          "title": "Global Center, Istanbul"
         },
         {
-          "name": "Dr. Selma Karabey",
+          "name": "Lilas Salih",
           "title": "Istanbul University, Faculty of Medicine"
         },
         {
-          "name": "Inanc Sumbuloglu",
+          "name": "Aydin Davutoglu",
           "title": "Bir IZ Association"
         },
         {
-          "name": "Laleper Aytekin",
+          "name": "'Majd Alshoghri'",
           "title": "Consultant"
         },
         {
-          "name": "Damla İkbal Ceyhan",
-          "title": "Young Researcher"
+          "name": "Hassan Abduldayem",
+          "title": "Engineering office"
         },
         {
           "name": "Mahmut Aliboz",
@@ -213,7 +213,7 @@
     },
     "aboutPageCTA": {
       "title": "Share your story, help others and get help from others",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa quo obcaecati fuga adipisci? Pariatur perspiciatis reiciendis exercitationem expedita, quam dolor vitae suscipit dolore, minima adipisci qui est unde dolorem.",
+      "text": "Discover the newest articles written by an experinced refugees, take advantages of it or share your feedback with them.Refubook is one of Columbia university projects, it aims to help refugees help each others by writing their experiences and ideas.",
       "SignUp": "Sign Up"
     }
   },
