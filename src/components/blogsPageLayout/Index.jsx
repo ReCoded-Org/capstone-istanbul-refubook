@@ -29,7 +29,6 @@ function BlogsPageLayout() {
         <div className="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
           {articles &&
             articles.map((blog, index) => {
-              console.log(blog);
               return (
                 <Link to={`singleblog/${index}`} key={index}>
                   <BlogsCard
