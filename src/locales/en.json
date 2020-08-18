@@ -23,20 +23,20 @@
         "motivation": "Motivation",
         "efficiency": "Efficiency",
         "creativity": "Creativity",
-        "socialCommunication": "Social Communication",
+        "socialCommunication": "Social",
         "valuableIdeas": "Valuable Ideas",
         "experiences": "Experiences",
-        "friendlyCommunity": "Friendly Community"
+        "friendlyCommunity": "Friends"
       },
       "featuresContent": {
         "reliability": "Reliability in statistics and psychometrics is the overall consistency of a measure.",
-        "motivation": "DescriptionMotivation is the experience of desire or aversion. As such, motivation has both an objective aspect and an internal or subjective aspect.",
-        "efficiency": "DescriptionEfficiency is the amount of divisions ordered from a task. In more mathematical or scientific terms.",
-        "creativity": "Creativity is a phenomenon whereby something new and somehow valuable is formed. The created item may be intangible or a physical object.",
-        "socialCommunication": "Social Communication refers to language that is used in social situations. This refers to a child's ability to use language to interact with others in a variety of situations.",
-        "valuableIdeas": "Everyone is looking for valuable ideas. Those ideas that have the power to change the way you think, act or see the world.",
-        "experiences": "DescriptionExperience is the process through which conscious organisms perceive the world around them.",
-        "friendlyCommunity": "Enables people from all conflict-effected countris to actively participate in community activities and treats everyone with respect, regardless of their nationalities or ethnicities."
+        "motivation": "DescriptionMotivation is the experience of desire or aversion.",
+        "efficiency": "DescriptionEfficiency is the amount of divisions ordered from a task.",
+        "creativity": "Creativity is a phenomenon whereby something new and somehow valuable",
+        "socialCommunication": "Social Communication refers to language that is used in social situations.",
+        "valuableIdeas": "Everyone is looking for valuable ideas. Those ideas that have the power",
+        "experiences": "DescriptionExperience is the process through which conscious organisms",
+        "friendlyCommunity": "Enables people from all conflict-affected countries to actively participate"
       }
     },
     "testimonials": {
@@ -49,14 +49,24 @@
         "text": "We hope that the REACH Health App is an impactful digital solution for the youth to access health care facilities",
         "whoSay": "Imad Hteit",
         "position": "Poject Manager"
+      },
+      "global-texts": {
+        "testimonial-title": "Testimonials",
+        "partners-title": "Our Partners"
       }
     },
     "stories-section": {
       "title": "Latest Stories",
-      "subtitle": "Discover the newest article written by an experinced refugees, take advantages of it or share your feedback with them.",
-      "cat-label": {
+      "subtitle": "Discover the newest articles written by an experinced refugees, take advantages of it or share your feedback with them.",
+      "details": {
         "language": "Language",
-        "jobs": "Jobs"
+        "jobs": "Jobs",
+        "language-article-title": "How I Learned Turkish Quickly, And What Are The Best Places To Learn From.",
+        "language-article-excerpt": "When learning a language, you need motivation and methods. If you don’t have a goal, there’s no point learning. If you don’t have a method, you won’t advance...",
+        "language-article-author": "Ahmad Al-Faysal",
+        "job-article-title": "How To Find a Job in Lebanon as a Refugee, here are my experiences and advices.",
+        "job-article-excerpt": "Lebanon is a country located in the East Mediterranean. The official language is Arabic. I love Lebanese cuisine. Below is a selection of resources for searching for employment...",
+        "job-article-author": "Rami Al-Barudi"
       }
     }
   },
@@ -65,11 +75,9 @@
     "discreption": "About page",
     "section-title": "About the project",
     "section-content": "REACH is a regional initiative of the Center for Sustainable Development at Columbia University which aims to bridge the gap in health literacy and health care access among refugee and local youth living in Turkey and Lebanon, and it is implemented in partnership with the Columbia Global Center in Istanbul as well as universities and NGOs supporting refugee and youth health initiatives in Turkey and Lebanon.",
-
     "team": {
       "heading": "Our Team",
       "countries": ["View All", "USA", "Turkey", "Lebanon"],
-
       "members-all": [
         {
           "name": "Dr. Yanis Ben Amor",
@@ -234,10 +242,8 @@
   "contact": {
     "title": "Contact",
     "description": "Contact Refuebook project",
-
     "heading": "Get In Touch",
-    "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit harum mollitia.",
-
+    "paragraph": "You are welcome to send any question, or if you want to send an article to share it on our blog, drop us an email with your article, and we are going to contact you as soon as your email delivered to us.",
     "formLabels": {
       "name": "Name:",
       "email": "Email:",
@@ -307,7 +313,6 @@
       "date": "Aug 18",
       "dateTime": "2015-05-16 19:00"
     },
-
     {
       "id": 3,
       "author": {
@@ -380,7 +385,6 @@
       "image": "https://miro.medium.com/max/700/0*1KBtlVVFvkB8W1Zo",
       "body": [
         "On August 10, React published their first release candidate for React v17. Even though it’s almost three years since a major release of React, surprisingly, there are no new features added for the new version. According to the React team, that’s to make it easier for the developer community to update React. But according to the React team, they are working on some new updates for the later versions of v17.",
-
         "As we know, upgrading from v15 to v16 or v16 to v17 will not cause many problems in our code. But if your codebase was written a few years back, this may cause problems. The good news is that React teams assure us that migrations will get easier in the future versions, even from older versions of React.ere’s a very basic and traditional Redux connected component. How would you refactor it to using Hooks?",
         "<h2>Installation</h2>",
         "As usual, installation is straightforward. You can use either npm or yarn to install React v17. Personally, I prefer using yarn instead of npm. But it’s up to you what to choose.",
@@ -415,7 +419,6 @@
       "image": "https://miro.medium.com/max/700/1*043pHI4FMvM8rTDxF07uMw.jpeg",
       "body": [
         "On August 10, React published their first release candidate for React v17. Even though it’s almost three years since a major release of React, surprisingly, there are no new features added for the new version. According to the React team, that’s to make it easier for the developer community to update React. But according to the React team, they are working on some new updates for the later versions of v17.",
-
         "As we know, upgrading from v15 to v16 or v16 to v17 will not cause many problems in our code. But if your codebase was written a few years back, this may cause problems. The good news is that React teams assure us that migrations will get easier in the future versions, even from older versions of React.ere’s a very basic and traditional Redux connected component. How would you refactor it to using Hooks?",
         "<h2>Installation</h2>",
         "As usual, installation is straightforward. You can use either npm or yarn to install React v17. Personally, I prefer using yarn instead of npm. But it’s up to you what to choose.",
