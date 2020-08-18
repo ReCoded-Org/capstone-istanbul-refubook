@@ -1,5 +1,5 @@
 import React from 'react';
-import { BlogsCarouselSettings, BlogsInfo } from '../../consts/BlogsConsts';
+import { BlogsCarouselSettings, BlogsAsHTML } from '../../consts/BlogsConsts';
 import Carousel from '../carousel/Index';
 import BlogsCard from '../../components/blogsCard';
 import { Link } from 'react-router-dom';
@@ -20,7 +20,7 @@ function BlogsPageLayout() {
         <div>
           <Carousel
             settings={BlogsCarouselSettings}
-            carouselData={BlogsInfo}
+            carouselData={BlogsAsHTML}
           ></Carousel>
         </div>
       </div>
@@ -30,7 +30,7 @@ function BlogsPageLayout() {
           {articles &&
             articles.map((blog, index) => {
               return (
-                <Link to={`singleblog/${index}`} key={index}>
+                <Link to={`singleblog/0`} key={index}>
                   <BlogsCard
                     key={index}
                     article={blog}
