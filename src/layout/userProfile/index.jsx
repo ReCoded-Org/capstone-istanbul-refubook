@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import UserProfileEdit from '../../components/userProfileEditInfo/index';
 import editIcon from '../../assets/editIcon.svg';
 import Carousel from '../../components/carousel/Index';
-import BlogsCard from '../../components/blogsCard';
 import { userProfileCarouselSettings } from '../../consts/userProfileConsts';
 import Avatar from '../../components/avatar';
 import { connect } from 'react-redux';

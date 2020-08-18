@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import SingleBlogPage from '../singleBlogPage';
 
 const BlogsCard = ({ article }) => {
   const { t } = useTranslation();
-  const [isArticleShown, setArticleShown] = useState(false);
-  const handleClick = (e) => {
-    console.log('button clicked');
-    setArticleShown(true); // Here we change state
-  };
+  // const [isArticleShown, setArticleShown] = useState(false);
+  // const handleClick = (e) => {
+  //   console.log('button clicked');
+  //   setArticleShown(true); // Here we change state
+  // };
   return (
     <div className="py-8 mx-2 flex justify-center items-center">
       <div className="max-w-sm rounded overflow-hidden shadow-md">
@@ -38,7 +38,7 @@ const BlogsCard = ({ article }) => {
       </div>
       <button
         onClick={() => {
-          return isArticleShown && <SingleBlogPage article={article} />;
+          return <SingleBlogPage article={article} />;
         }}
       >
         read more
