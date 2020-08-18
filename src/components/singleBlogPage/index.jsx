@@ -1,15 +1,13 @@
 import React from 'react';
 import Article from '../../components/article';
 import RecommendedArticles from '../../components/recommendedArticles';
-import { useTranslation } from 'react-i18next';
 
 const SingleBlogPage = ({ article }) => {
-  const { t } = useTranslation();
   return (
     <>
       <div className="grid grid-cols-1 lg:mx-20 xl:mx-40 gap-16 mx-3 relative">
         <div className="flex flex-col pt-8 pr-2 gap-1 absolute top-0 right-0 z-10">
-          <span className=" text-right">{t('blog.share')}</span>
+          <span className=" text-right">Share</span>
           <a href="socialMediaLink">
             <img
               src={require('../../assets/instagramIcon.svg')}

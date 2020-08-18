@@ -33,10 +33,10 @@ const Article = ({ article }) => {
         <section className="content-center">
           <img
             src={
-              'https://images.unsplash.com/photo-1597511880205-2d599e0c95ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80'
+              'https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
             }
             alt="Article Cover"
-            className="mx-auto"
+            className="mx-auto w-3/4"
           />
           <div className="flex items-center p-2 justify-center">
             <img
