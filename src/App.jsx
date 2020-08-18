@@ -23,7 +23,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/signup" component={SignUp} />
         <Route path="/login" component={LogIn} />
-        <Route path="/singleBlogPage/:id" component={SingleBlogPage} />
+        <Route path="/singleblog/:id" component={SingleBlogPage} />
       </Switch>
       <Footer />
     </BrowserRouter>

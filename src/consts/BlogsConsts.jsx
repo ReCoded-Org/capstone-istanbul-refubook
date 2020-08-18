@@ -1,5 +1,6 @@
 import React from 'react';
 import BlogsCard from '../components/blogsCard/';
+import { articlesDataBase } from './articles';
 
 export const BlogsCarouselSettings = {
   dots: true,
@@ -37,12 +38,9 @@ export const BlogsCarouselSettings = {
 };
 
 export const BlogsInfo = [
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
+  <BlogsCard article={articlesDataBase} />,
+  <BlogsCard article={articlesDataBase} />,
+  <BlogsCard article={articlesDataBase} />,
+  <BlogsCard article={articlesDataBase} />,
+  <BlogsCard article={articlesDataBase} />,
 ];

@@ -11,7 +11,7 @@ exports[`Blog page renders correctly 1`] = `
       <h1
         className="text-center p-4 text-xl font-bold"
       >
-        article.title
+        Title Title Title Title Title 
       </h1>
     </header>
     <section

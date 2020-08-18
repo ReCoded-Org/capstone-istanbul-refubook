@@ -7,16 +7,16 @@ import { userProfileCarouselSettings } from '../../consts/userProfileConsts';
 import Avatar from '../../components/avatar';
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
-
+import { BlogsInfo } from '../../consts/BlogsConsts';
 //personal Blogs Array is an array of blogs written by the same user
-const personalBlogsArray = [
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-];
+// const personalBlogsArray = [
+//   <BlogsCard article={articlesDataBase} />,
+//   <BlogsCard article={articlesDataBase} />,
+//   <BlogsCard article={articlesDataBase} />,
+//   <BlogsCard article={articlesDataBase} />,
+//   <BlogsCard article={articlesDataBase} />,
+//   <BlogsCard article={articlesDataBase} />,
+// ];
 
 const UserProfile = (props) => {
   console.log(props.auth);
@@ -46,7 +46,7 @@ const UserProfile = (props) => {
             />
             <div className="px-8 my-8">
               <Carousel
-                carouselData={personalBlogsArray}
+                carouselData={BlogsInfo}
                 settings={userProfileCarouselSettings}
               />
             </div>

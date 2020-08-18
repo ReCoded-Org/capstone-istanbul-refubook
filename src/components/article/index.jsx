@@ -19,14 +19,16 @@ const ArticleInfo = {
   dateTime: '2015-05-16 19:00',
 };
 
-const Article = () => {
+const Article = ({ article }) => {
   const { t } = useTranslation();
-
+  console.log(article);
   return (
     <div className=" ">
       <article className="">
         <header>
-          <h1 className="text-center p-4 text-xl font-bold">{t('article.title')}</h1>
+          <h1 className="text-center p-4 text-xl font-bold">
+            {t(ArticleInfo.title)}
+          </h1>
         </header>
         <section className="content-center">
           <img src={ArticleInfo.image} alt="Article Cover" className="mx-auto" />
