@@ -6,7 +6,7 @@ const TeamSection = () => {
   const { t } = useTranslation();
   return (
     <I18nextProvider>
-      <div className="bg-blue-100 text-center md:min-h-screen min-h-full">
+      <div className="bg-blue-100 text-center py-4 xl:py-8">
         <h2 className="text-blue-800 text-5xl py-8">{t('about.team.heading')}</h2>
         <Tabs selectedTabClassName="transition duration-500 ease-in-out text-white bg-blue-800 ">
           <TabList className="mb-16 md:mb-32 flex justify-center">
@@ -15,7 +15,7 @@ const TeamSection = () => {
                 return (
                   <Tab
                     key={index}
-                    className="text-sm md:text-base mr-2 md:mr-8 rounded-full py-1 px-4 font-medium"
+                    className="cursor-pointer text-sm md:text-base mr-2 md:mr-8 rounded-full py-1 px-4 font-medium"
                   >
                     {country}
                   </Tab>
@@ -31,8 +31,12 @@ const TeamSection = () => {
                   <div key={index}>
                     <ul>
                       <li>
-                        <h4 className="font-bold text-blue-800">{t(member.name)}</h4>
-                        <p className="text-blue-800">{t(member.title)}</p>
+                        <h4 className="font-bold text-blue-800 flex items-start">
+                          {t(member.name)}
+                        </h4>
+                        <p className="text-blue-800 flex items-start">
+                          {t(member.title)}
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -48,8 +52,12 @@ const TeamSection = () => {
                   <div key={index}>
                     <ul>
                       <li>
-                        <h4 className="font-bold text-blue-800">{t(member.name)}</h4>
-                        <p className="text-blue-800">{t(member.title)}</p>
+                        <h4 className="font-bold text-blue-800 flex items-start">
+                          {t(member.name)}
+                        </h4>
+                        <p className="text-blue-800 flex items-start">
+                          {t(member.title)}
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -65,8 +73,12 @@ const TeamSection = () => {
                   <div key={index}>
                     <ul>
                       <li>
-                        <h4 className="font-bold text-blue-800">{t(member.name)}</h4>
-                        <p className="text-blue-800">{t(member.title)}</p>
+                        <h4 className="font-bold text-blue-800 flex items-start">
+                          {t(member.name)}
+                        </h4>
+                        <p className="text-blue-800 flex items-start">
+                          {t(member.title)}
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -82,8 +94,12 @@ const TeamSection = () => {
                   <div key={index}>
                     <ul>
                       <li>
-                        <h4 className="font-bold text-blue-800">{t(member.name)}</h4>
-                        <p className="text-blue-800">{t(member.title)}</p>
+                        <h4 className="font-bold text-blue-800 flex items-start">
+                          {t(member.name)}
+                        </h4>
+                        <p className="text-blue-800 flex items-start">
+                          {t(member.title)}
+                        </p>
                       </li>
                     </ul>
                   </div>

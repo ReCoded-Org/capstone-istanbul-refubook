@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
 import { signOut } from '../../store/actions/authAction';
-import cover from '../../assets/cover.jpg';
+//import cover from '../../assets/cover.jpg';
 function Navbar(props) {
   const [open, setOpen] = useState(false);
   const toggle = () => setOpen(!open);
@@ -24,7 +24,7 @@ function Navbar(props) {
               >
                 <img
                   className="h-full w-full object-cover"
-                  src={cover}
+                  src={props.auth.photoURL}
                   alt="/"
                 ></img>
               </button>
@@ -32,7 +32,7 @@ function Navbar(props) {
                 <div className="absolute right-0 mt-2 py-2 w-48 bg-white rounded-lg shadow-xl">
                   <Link
                     className="text-center block px-4 py-2 text-gray-800 text-blue-600 hover:bg-blue-500 w-full hover:text-white"
-                    to="/"
+                    to="/userProfile"
                   >
                     Profile settings
                   </Link>
@@ -58,7 +58,7 @@ function Navbar(props) {
           props.logOut();
         }}
       >
-        {t('navbar.title6')}
+        {t('links.home')}
       </Link>
     );
   } else {
@@ -67,7 +67,7 @@ function Navbar(props) {
         className="justify-center block appearance-none bg-blue-600 hover:bg-blue-700 text-white font-bold py-1 px-4 text-center rounded-full"
         to="/signup"
       >
-        {t('navbar.title5')}
+        {t('links.signUp')}
       </Link>
     );
     account = (
@@ -92,22 +92,22 @@ function Navbar(props) {
           <ul className="flex justify-center">
             <li className="mr-6">
               <Link className="text-gray-500 hover:text-blue-600" to="/">
-                {t('navbar.title1')}
+                {t('links.home')}
               </Link>
             </li>
             <li className="mr-6">
               <Link className="text-gray-500 hover:text-blue-600" to="/about">
-                {t('navbar.title2')}
+                {t('links.about')}
               </Link>
             </li>
             <li className="mr-6">
               <Link className="text-gray-500 hover:text-blue-600" to="/contact">
-                {t('navbar.title3')}
+                {t('links.contact')}
               </Link>
             </li>
-            <li>
+            <li className="mr-6">
               <Link className="text-gray-500 hover:text-blue-600" to="/blog">
-                {t('navbar.title4')}
+                {t('links.blog')}
               </Link>
             </li>
           </ul>

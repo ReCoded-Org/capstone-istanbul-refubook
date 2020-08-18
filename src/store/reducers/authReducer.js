@@ -5,6 +5,7 @@ import {
   SIGN_IN_WITH_GOOGLE_ERROR,
   LOG_OUT,
   LOG_OUT_ERROR,
+  GET_USER_DATA,
 } from '../actions/actionTypes';
 const initState = {
   authError: null,
@@ -46,6 +47,13 @@ const authReducer = (state = initState, action) => {
       return {
         ...state,
         authError: 'sign in error',
+      };
+    case GET_USER_DATA:
+      console.log(action.user);
+      console.log(state);
+      return {
+        ...state,
+        userInfo: action.user,
       };
     default:
       return state;

@@ -1,35 +1,34 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
 
-const BlogsCard = () => {
+const BlogsCard = ({ article }) => {
+  const { t } = useTranslation();
+  console.log(article.image);
+  // const [isArticleShown, setArticleShown] = useState(false);
+  // const handleClick = (e) => {
+  //   console.log('button clicked');
+  //   setArticleShown(true); // Here we change state
+  // };
   return (
-    <div className="py-64 flex justify-center items-center">
+    <div className="py-8 mx-2 flex justify-center items-center">
       <div className="max-w-sm rounded overflow-hidden shadow-md">
-        <img
-          className="w-full"
-          src="https://via.placeholder.com/350x200"
-          alt="Sunset in the mountains"
-        />
+        <img className="w-full" src={article.image} alt="Sunset in the mountains" />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">
-            <a href="/">
-              How I learned Turkish quickly and what are the best places to learn.
-            </a>
+            <p>{i18next.t(article.title)}</p>
           </div>
-          <p className="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-            quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
-            nihil.
-          </p>
+          <p className="text-gray-700 text-base">{t(article.subTitle)}</p>
         </div>
 
         <div className="px-6 py-4 flex items-center">
           <img
             className="w-10 h-10 rounded-full mr-4"
-            src="https://via.placeholder.com/150"
-            alt="Avatar of Ahmad Faysal"
+            src={article.avatar}
+            alt={`Avatar of ${t('articles.author.name')}`}
           />
           <div className="text-sm">
-            <p className="text-gray-900 leading-none">Ahmad Faysal</p>
+            <p className="text-gray-900 leading-none">{t(article.name)}</p>
           </div>
         </div>
       </div>
