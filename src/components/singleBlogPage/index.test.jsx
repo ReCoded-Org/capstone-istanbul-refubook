@@ -1,14 +1,14 @@
 import React from 'react';
 import SingleBlogPage from './';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-it('SingleBlogPage page renders correctly', () => {
-  const tree = renderer
-    .create(
+
+describe('SingleBlogPage', () => {
+  test('page renders correctly', () => {
+    render(
       <BrowserRouter>
         <SingleBlogPage />
       </BrowserRouter>
-    )
-    .toJSON();
-  expect(tree).toMatchSnapshot();
+    );
+  });
 });

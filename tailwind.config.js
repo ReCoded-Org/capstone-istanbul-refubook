@@ -247,7 +247,7 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      serif: ['roboto', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
         'Menlo',
         'Monaco',
@@ -444,6 +444,7 @@ module.exports = {
       '30': '30',
       '40': '40',
       '50': '50',
+      '-10': '-10',
     },
     gap: (theme) => theme('spacing'),
     gridTemplateColumns: {

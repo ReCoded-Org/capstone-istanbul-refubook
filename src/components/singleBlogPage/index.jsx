@@ -3,8 +3,9 @@ import Article from '../../components/article';
 import RecommendedArticles from '../../components/recommendedArticles';
 import { useTranslation } from 'react-i18next';
 
-const SingleBlogPage = () => {
+const SingleBlogPage = ({ article }) => {
   const { t } = useTranslation();
+  console.log('hi');
   return (
     <>
       <div className="grid grid-cols-1 lg:mx-20 xl:mx-40 gap-16 mx-3 relative">
@@ -33,7 +34,7 @@ const SingleBlogPage = () => {
           </a>
         </div>
         <div className="relative top-0">
-          <Article />
+          <Article article={article} />
         </div>
         <div className="pt-16">
           <h2 className=" text-xl font-medium">{t('blog.ReadAlso')}</h2>

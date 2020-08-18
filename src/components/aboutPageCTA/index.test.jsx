@@ -1,8 +1,16 @@
 import React from 'react';
-import AboutPageCTA from './';
-import renderer from 'react-test-renderer';
+import ReactDOM from 'react-dom';
 
-it('AboutPageCTA renders correctly', () => {
-  const tree = renderer.create(<AboutPageCTA />).toJSON();
-  expect(tree).toMatchSnapshot();
+import AboutPageCTA from './';
+import { BrowserRouter } from 'react-router-dom';
+
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(
+    <BrowserRouter>
+      <AboutPageCTA />
+    </BrowserRouter>,
+
+    div
+  );
 });

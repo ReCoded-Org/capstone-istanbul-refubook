@@ -18,7 +18,7 @@ const SignUp = (props) => {
           <div className="max-w-md mx-auto my-24 bg-white px-5 py-10 rounded-lg shadow-xl">
             <div className="text-center mb-8">
               <h1 className=" text-blue-600 font-bold text-2xl font-bold">
-                {t('signUpnav.title')}
+                {t('signUp.title')}
               </h1>
             </div>
             <div className="mt-5 text-center px-8">
@@ -29,13 +29,11 @@ const SignUp = (props) => {
                   props.onSignInFacebook();
                 }}
               >
-                {t('signUpnav.buttonFacebook')}
+                {t('signUp.buttonFacebook')}
               </button>
             </div>
             <div className="mt-5 text-center">
-              <p className="text-center text-gray-400 font-bold">
-                {t('signUpnav.or')}
-              </p>
+              <p className="text-center text-gray-400 font-bold">{t('signUp.or')}</p>
             </div>
             <div className="mt-5 text-center px-8">
               <button
@@ -45,7 +43,7 @@ const SignUp = (props) => {
                   props.onSignInGoogle();
                 }}
               >
-                {t('signUpnav.buttonGoogle')}
+                {t('signUp.buttonGoogle')}
               </button>
             </div>
             {/* <SignUpForm /> */}
@@ -54,7 +52,7 @@ const SignUp = (props) => {
                 className="block appearance-none text-gray-400 font-bold py-1 px-3 rounded-full text-center"
                 to="/login"
               >
-                {t('signUpnav.logIn')}
+                {t('signUp.logIn')}
               </Link>
             </div>
           </div>
