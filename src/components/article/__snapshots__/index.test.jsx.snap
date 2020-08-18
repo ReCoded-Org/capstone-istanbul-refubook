@@ -19,8 +19,8 @@ exports[`Blog page renders correctly 1`] = `
     >
       <img
         alt="Article Cover"
-        className="mx-auto"
-        src="https://images.unsplash.com/photo-1597511880205-2d599e0c95ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80"
+        className="mx-auto w-3/4"
+        src="https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
       />
       <div
         className="flex items-center p-2 justify-center"
