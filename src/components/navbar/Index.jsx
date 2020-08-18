@@ -105,7 +105,7 @@ function Navbar(props) {
                 {t('links.contact')}
               </Link>
             </li>
-            <li>
+            <li className="mr-6">
               <Link className="text-gray-500 hover:text-blue-600" to="/blog">
                 {t('links.blog')}
               </Link>

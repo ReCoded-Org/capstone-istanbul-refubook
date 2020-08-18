@@ -31,8 +31,12 @@ const TeamSection = () => {
                   <div key={index}>
                     <ul>
                       <li>
-                        <h4 className="font-bold text-blue-800">{t(member.name)}</h4>
-                        <p className="text-blue-800">{t(member.title)}</p>
+                        <h4 className="font-bold text-blue-800 flex items-start">
+                          {t(member.name)}
+                        </h4>
+                        <p className="text-blue-800 flex items-start">
+                          {t(member.title)}
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -48,8 +52,12 @@ const TeamSection = () => {
                   <div key={index}>
                     <ul>
                       <li>
-                        <h4 className="font-bold text-blue-800">{t(member.name)}</h4>
-                        <p className="text-blue-800">{t(member.title)}</p>
+                        <h4 className="font-bold text-blue-800 flex items-start">
+                          {t(member.name)}
+                        </h4>
+                        <p className="text-blue-800 flex items-start">
+                          {t(member.title)}
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -65,8 +73,12 @@ const TeamSection = () => {
                   <div key={index}>
                     <ul>
                       <li>
-                        <h4 className="font-bold text-blue-800">{t(member.name)}</h4>
-                        <p className="text-blue-800">{t(member.title)}</p>
+                        <h4 className="font-bold text-blue-800 flex items-start">
+                          {t(member.name)}
+                        </h4>
+                        <p className="text-blue-800 flex items-start">
+                          {t(member.title)}
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -82,8 +94,12 @@ const TeamSection = () => {
                   <div key={index}>
                     <ul>
                       <li>
-                        <h4 className="font-bold text-blue-800">{t(member.name)}</h4>
-                        <p className="text-blue-800">{t(member.title)}</p>
+                        <h4 className="font-bold text-blue-800 flex items-start">
+                          {t(member.name)}
+                        </h4>
+                        <p className="text-blue-800 flex items-start">
+                          {t(member.title)}
+                        </p>
                       </li>
                     </ul>
                   </div>

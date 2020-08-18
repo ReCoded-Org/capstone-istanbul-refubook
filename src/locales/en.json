@@ -58,9 +58,15 @@
     "stories-section": {
       "title": "Latest Stories",
       "subtitle": "Discover the newest articles written by an experinced refugees, take advantages of it or share your feedback with them.",
-      "cat-label": {
+      "details": {
         "language": "Language",
-        "jobs": "Jobs"
+        "jobs": "Jobs",
+        "language-article-title": "How I Learned Turkish Quickly, And What Are The Best Places To Learn From.",
+        "language-article-excerpt": "When learning a language, you need motivation and methods. If you don’t have a goal, there’s no point learning. If you don’t have a method, you won’t advance...",
+        "language-article-author": "Ahmad Al-Faysal",
+        "job-article-title": "How To Find a Job in Lebanon as a Refugee, here are my experiences and advices.",
+        "job-article-excerpt": "Lebanon is a country located in the East Mediterranean. The official language is Arabic. I love Lebanese cuisine. Below is a selection of resources for searching for employment...",
+        "job-article-author": "Rami Al-Barudi"
       }
     }
   },
@@ -240,7 +246,7 @@
     "description": "Contact Refuebook project",
 
     "heading": "Get In Touch",
-    "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit harum mollitia. amet consectetur adipisicing elit ipsum dolor sit.",
+    "paragraph": "You are welcome to send any question, or if you want to send an article to share it on our blog, drop us an email with your article, and we are going to contact you as soon as your email delivered to us.",
 
     "formLabels": {
       "name": "Name:",

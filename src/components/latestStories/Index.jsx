@@ -25,17 +25,14 @@ function LatestStories() {
           </a>
           <div className="px-6 py-4">
             <span className="inline-block bg-yellow-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mb-2">
-              {t('home.stories-section.cat-label.language')}
+              {t('home.stories-section.details.language')}
             </span>
             <div className="font-bold text-gray-800  text-xl mb-2">
-              How I Learned Turkish Quickly, And What Are The Best Places To Learn
-              From.
+              {t('home.stories-section.details.language-article-title')}
             </div>
 
             <p className="text-gray-600 text-base">
-              When learning a language, you need motivation and methods. If you don’t
-              have a goal, there’s no point learning. If you don’t have a method, you
-              won’t advance...
+              {t('home.stories-section.details.language-article-excerpt')}
             </p>
           </div>
 
@@ -52,7 +49,7 @@ function LatestStories() {
                 <li>
                   <p className="text-gray-500 leading-none font-semibold pt-2">
                     {' '}
-                    Ahmad Al-Faysal{' '}
+                    {t('home.stories-section.details.language-article-author')}{' '}
                   </p>
                 </li>
               </div>
@@ -66,16 +63,13 @@ function LatestStories() {
           </a>
           <div className="px-6 py-4">
             <span className="inline-block bg-yellow-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mb-2">
-              {t('home.stories-section.cat-label.jobs')}
+              {t('home.stories-section.details.jobs')}
             </span>
             <div className="font-bold text-gray-800 text-xl mb-2">
-              How To Find a Job in Lebanon as a Refugee, here are my experiences and
-              advices.
+              {t('home.stories-section.details.job-article-title')}
             </div>
             <p className="text-gray-600 text-base">
-              Lebanon is a country located in the East Mediterranean. The official
-              language is Arabic. I love Lebanese cuisine. Below is a selection of
-              resources for searching for employment...
+              {t('home.stories-section.details.job-article-excerpt')}
             </p>
           </div>
           <div className="px-6 pt-1 pb-6">
@@ -91,7 +85,7 @@ function LatestStories() {
                 <li>
                   <p className="text-gray-500 leading-none font-semibold pt-2 text">
                     {' '}
-                    Rami Al-Barudi{' '}
+                    {t('home.stories-section.details.job-article-author')}{' '}
                   </p>
                 </li>
                 <br></br>
