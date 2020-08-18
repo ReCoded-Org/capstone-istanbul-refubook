@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/app.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import UserProfile from './layout/userProfile';
 import Home from './layout/home/Index';
 import About from './layout/about/Index';
@@ -13,7 +13,7 @@ import SingleBlogPage from '../src/components/singleBlogPage/index';
 import Footer from '../src/components/footer/Footer';
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -26,7 +26,7 @@ function App() {
         <Route path="/singleblog/0" component={SingleBlogPage} />
       </Switch>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;

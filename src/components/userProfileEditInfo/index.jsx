@@ -3,7 +3,6 @@ import { ReactComponent as Camera } from '../../assets/camera.svg';
 import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
-
 import { changeBioAndLoc } from '../../store/actions/authAction';
 const UserProfileEdit = (props) => {
   console.log(props.auth.uid);
@@ -17,10 +16,10 @@ const UserProfileEdit = (props) => {
   const [lastName, setLastName] = useState(lastNameDemo);
   const [bio, setBio] = useState(props.userInfo.bio);
   const [location, setLocation] = useState(props.userInfo.location);
-
+  const [isClicked, setIsClicked] = useState(false);
   const { t } = useTranslation();
   if (!props.auth.uid) return <Redirect to="/" />;
-
+  if (isClicked) return <Redirect to="/" />;
   return (
     <div className="bg-blue-100 h-screen flex flex-col items-center justify-center">
       <div className="relative md:mb-16 mb-8 flex flex-col items-end w-48">
@@ -112,6 +111,10 @@ const UserProfileEdit = (props) => {
             <button
               className="uppercase md:text-base text-sm bg-transparent border-solid border-2 border-blue-500 text-blue-500 hover:bg-blue-700 hover:text-white font-bold mt-4 py-2 md:px-6 px-4 rounded-full focus:outline-none focus:shadow-outline"
               type="submit"
+              onClick={(e) => {
+                e.preventDefault();
+                setIsClicked(!isClicked);
+              }}
             >
               {t('userProfile.edit.cancele')}
             </button>

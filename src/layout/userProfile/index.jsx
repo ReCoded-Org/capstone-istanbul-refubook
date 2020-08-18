@@ -6,7 +6,7 @@ import { userProfileCarouselSettings } from '../../consts/userProfileConsts';
 import Avatar from '../../components/avatar';
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
-import { BlogsInfo } from '../../consts/BlogsConsts';
+import { BlogsAsHTML } from '../../consts/BlogsConsts';
 //personal Blogs Array is an array of blogs written by the same user
 // const personalBlogsArray = [
 //   <BlogsCard article={articlesDataBase} />,
@@ -45,7 +45,7 @@ const UserProfile = (props) => {
             />
             <div className="px-8 my-8">
               <Carousel
-                carouselData={BlogsInfo}
+                carouselData={BlogsAsHTML}
                 settings={userProfileCarouselSettings}
               />
             </div>
