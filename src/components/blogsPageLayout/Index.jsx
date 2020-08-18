@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 
 function BlogsPageLayout() {
   const { t } = useTranslation();
-  const articles = t('articles', { returnObjects: true });
+  const articles = Array.from(t('articles', { returnObjects: true }));
   console.log(articles);
   return (
     <div className="items-center my-8 mx-4 xl:px-8 sm:px-6 space-y-6">
