@@ -26,6 +26,7 @@ export const SignInWithGoogle = (user, ownProps) => {
       })
       .catch((err) => {
         dispatch({ type: SIGN_IN_WITH_GOOGLE_ERROR, err });
+        console.log(err);
       });
   };
 };

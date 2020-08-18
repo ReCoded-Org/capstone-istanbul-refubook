@@ -1,6 +1,15 @@
 import React from 'react';
 import BlogsCard from '../components/blogsCard/';
 import { articlesDataBase } from './articles';
+// import i18next from 'i18next';
+
+// const articles = i18next.t('articles', { returnObjects: true });
+// // export const topBlogs = [];
+// // articles.map((blog, index) => {
+// //   if (index < 5) {
+// //     topBlogs.push(<BlogsCard key={index} article={blog} />);
+// //   }
+// // });
 
 export const BlogsCarouselSettings = {
   dots: true,
