@@ -1,5 +1,5 @@
 import React from 'react';
-import cover from '../../assets/ReachProject.jpeg';
+import cover from '../../assets/team.jpg';
 
 const style = {
   coverPhoto: {
@@ -10,7 +10,7 @@ const style = {
 function AboutPageCover() {
   return (
     <div style={style.coverPhoto}>
-      <img className="w-full h-auto mx-auto opacity-75" src={cover} alt="" />
+      <img className="w-full h-full mx-auto opacity-75" src={cover} alt="" />
     </div>
   );
 }

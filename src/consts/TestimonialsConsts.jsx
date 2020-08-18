@@ -1,11 +1,12 @@
 import React from 'react';
-import AUB from '../assets/AUB_logo.3f1150ac.svg';
-import BiRiZ from '../assets/biRiZ_logo.d3aa371f.svg';
-import BlueChip from '../assets/blueChip_logo.2fd68ab2.svg';
-import ColumbiaGC from '../assets/columbiaGC_logo.d83e8aeb.svg';
-import DotLe from '../assets/dotLe_logo.358c40c7.svg';
-import ICDF from '../assets/ICDF_logo.d5934fe8.svg';
-import IstanbulUni from '../assets/istanbulUni_logo.90779e87.svg';
+import One from '../assets/1.png';
+import Two from '../assets/2.png';
+import Three from '../assets/3.png';
+import Four from '../assets/4.png';
+import Five from '../assets/5.png';
+import Six from '../assets/6.png';
+import Seven from '../assets/7.png';
+
 export const testimonialsCarouselSettings = {
   dots: true,
   infinite: true,
@@ -52,25 +53,25 @@ export const OurProductsCarouselSettings = {
 
 export const ourPartnersInfo = [
   <div>
-    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={AUB} />
+    <img alt="Partner" className=" w-1/2 mx-auto" src={Seven} />
   </div>,
   <div>
-    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={BiRiZ} />
+    <img alt="Partner" className=" w-1/2 mx-auto" src={Six} />
   </div>,
   <div>
-    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={BlueChip} />
+    <img alt="Partner" className=" w-1/2 mx-auto" src={Five} />
   </div>,
   <div>
-    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={ColumbiaGC} />
+    <img alt="Partner" className=" w-1/2 mx-auto" src={Four} />
   </div>,
   <div>
-    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={DotLe} />
+    <img alt="Partner" className=" w-1/2 mx-auto" src={Three} />
   </div>,
   <div>
-    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={ICDF} />
+    <img alt="Partner" className=" w-1/2 mx-auto" src={Two} />
   </div>,
   <div>
-    <img alt="Partner" className=" w-24 sm:w-24 xl:w-56" src={IstanbulUni} />
+    <img alt="Partner" className=" w-1/2 mx-auto" src={One} />
   </div>,
 ];
 export const testimonialsInfo = [
