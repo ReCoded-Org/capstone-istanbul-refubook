@@ -1,23 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
+import SingleBlogPage from '../singleBlogPage';
 
 const BlogsCard = ({ article }) => {
   console.log(article);
   const { t } = useTranslation();
-
+  const [isArticleShown, setArticleShown] = useState(false);
+  const handleClick = (e) => {
+    console.log('button clicked');
+    setArticleShown(true); // Here we change state
+  };
   return (
     <div className="py-8 mx-2 flex justify-center items-center">
       <div className="max-w-sm rounded overflow-hidden shadow-md">
         <img
           className="w-full"
-          src="https://via.placeholder.com/350x200"
+          src={article.image ? article.image : 'https://via.placeholder.com/350x200'}
           alt="Sunset in the mountains"
         />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">
-            <a href={`singleBlogPage/`}>{t('article.title')}</a>
+            <p
+            // onClick={() => {
+            //   return isArticleShown && <SingleBlogPage article={article} />;
+            // }}
+            >
+              {i18next.t(article.title)}
+            </p>
           </div>
-          <p className="text-gray-700 text-base">{t('article.body')}</p>
+          <p className="text-gray-700 text-base">{t(article.subTitle)}</p>
         </div>
 
         <div className="px-6 py-4 flex items-center">
@@ -31,6 +43,13 @@ const BlogsCard = ({ article }) => {
           </div>
         </div>
       </div>
+      <button
+      // onClick={() => {
+      //   return isArticleShown && <SingleBlogPage article={article} />;
+      // }}
+      >
+        read more
+      </button>
     </div>
   );
 };

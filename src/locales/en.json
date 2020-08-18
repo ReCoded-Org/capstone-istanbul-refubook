@@ -270,14 +270,30 @@
       "id": 1,
       "author": {
         "id": 1,
-        "name": "Jonathan Reinink",
-        "avatar": "https://picsum.photos/seed/picsum/200/300",
-        "profile": "_blank"
+        "name": "Florin Pop",
+        "avatar": "https://miro.medium.com/fit/c/128/128/1*sSR_cfRyUkBoM7L1pUYoYA.jpeg",
+        "profile": "https://blog.bitsrc.io/@popflorin1705?source=post_page-----28612c72a3b1----------------------"
       },
-      "title": "Title Title Title Title Title",
-      "subTitle": "subTitle subTitle subTitle",
-      "image": "https://via.placeholder.com/150",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!",
+      "title": "Mozilla: The Greatest Tech Company Left Behind",
+      "subTitle": "How could an organization that had its hand in so many world-changing technologies fail to thrive?",
+      "image": "https://miro.medium.com/max/1388/1*lZma6KDWCfkcOmJuDCNerg.png",
+      "body": [
+        "<h2>A brief history of Mozilla</h2>",
+        "Mozilla was created out of the ashes of one of the world’s most spectacular software failures. Netscape Navigator, the pioneering web browser company of the late 1990s, had gone from internet king to also-ran in a matter of months. The cause — Microsoft’s aggressive bundling of Internet Explorer — hardly seemed fair. But most industry watchers were resigned to a future where browsers would be free and ubiquitous. They were hardly a product you could build a company around.",
+        "Then, in a small stroke of genius, Netscape created the nonprofit Mozilla Organization (later renamed Mozilla Foundation) to develop Netscape’s integrated browser, mail, and chat application suite. That software initiative slowly crumbled in the face of competitors with more money and greater reach. But in the following years, the Mozilla Foundation morphed itself into a different kind of organization — one dedicated to promoting open web standards and web literacy. (Not to mention a handful of Utopian-tinged principles laid out in the famous Mozilla manifesto.)",
+        "Years later, a group of Mozilla developers rebooted their browser efforts with Firefox, and spun it off into a separate, wholly owned corporation that still funds the Mozilla Foundation to this day. Had these technologies stayed locked up with AOL (the company that bought Netscape), they would have died years ago, worn away by the changing winds of internet fashion. In fact, even AOL gave up on the software it acquired with Netscape, switching to Internet Explorer shortly before it slipped into irrelevance.",
+        "<h2>Mozilla’s greatest hits</h2>",
+        "Firefox is Mozilla’s best-known creation. And though today it’s easy to dismiss it as just an alternative browser, the early Firefox was a pioneer in ad blocking, data privacy, and developer tools. (Before there was Chrome DevTools, there was Firebug.)",
+        "If that was all there was to Mozilla, the company would just have been another speed bump on the way to Chromium and WebKit world domination. Instead, Mozilla advanced some of today’s most important web technologies. Here are four of their best initiatives.",
+        "<h2>1. Rust</h2>",
+        "When Netscape collapsed, few realized that its most important contribution was the small, underpowered scripting language it left behind. That language was JavaScript.",
+        "JavaScript was created in the brief period that Netscape dominated the web. But in the two decades since Netscape failed, JavaScript has only grown more widespread and more dominant. So it’s not hard to imagine that the most important innovation that Firefox leaves behind could be the blazingly efficient, typesafe Rust language.",
+        "Rust’s appeal stretches across the aisle. Developers who believe that C++ is too permissive and error-prone love Rust. But developers who think that traditional OOP languages are to heavy and inefficient also love Rust. And despite its relatively low adoption, Rust has been ranked as the most loved programming language in Stack Overflow’s developer survey every year since 2016.",
+        "Sadly, contributing to the Rust language is no longer a priority for the new Mozilla. In the latest round of layoffs, they cut dedicated Rust developers and the Servo team that sought to build a new, Rust-powered browser engine. But the current consensus is that Rust won’t go down with the ship. Planning for a standalone Rust Foundation is already underway.",
+        "<h2>2. HTML5</h2>",
+        "It’s hard to remember, but there was a time when the world was locked in an ugly battle between HTML and XHTML, a non-backwards-compatible version of HTML reimagined using the stricter syntax of XML. And HTML was losing. In 2004, the standards body in charge of HTML (the W3C) officially halted all work on HTML.",
+        "The story would have ended there, were it not for the WHATWG, an ad hoc group quickly cobbled together by Apple, Opera, and Mozilla. The rest is history — the WHATWG won, forced the W3C to change course, and launched a pile of new standards under the umbrella of HTML5, including Flash-free video, web workers, web sockets, and plenty more. Those standards are still with us today."
+      ],
       "date": "Aug 18",
       "dateTime": "2015-05-16 19:00"
     },
@@ -285,46 +301,189 @@
       "id": 2,
       "author": {
         "id": 2,
-        "name": "Jonathan Reinink",
-        "avatar": "https://picsum.photos/seed/picsum/200/300",
-        "profile": "_blank"
+        "name": "Matthew MacDonald",
+        "avatar": "https://miro.medium.com/fit/c/96/96/1*6yPj-9aMYxi0Xnk5XNa0Lg.jpeg",
+        "profile": "https://medium.com/@prosetech?source=post_page-----9e912098a0e1----------------------"
       },
-      "title": "Title Title Title Title Title",
-      "subTitle": "subTitle subTitle subTitle",
-      "image": "https://via.placeholder.com/150",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!",
+      "title": "15 App Ideas to Build and Level Up your Coding Skills",
+      "subTitle": "App ideas that are great to improve your coding skills, experiment with new technologies and add to your portfolio!",
+      "image": "https://miro.medium.com/max/700/1*FRFBpWtkjXrhPrS148P7mg.png",
+      "body": [
+        "In this article, you’ll find 5 ideas from each tier.  Try to publish your reusable components, from either app to Bit.dev, a cloud component hub. You can document them and add examples in each component page (on Bit’s site) — then, use them in future apps or simply share them with your team.",
+        "1. Countdown Timer Tier: 1-Beginner We all have important events we look forward to in life, birthdays, anniversaries, and holidays to name a few. Wouldn’t it be nice to have an app that counts down the months, days, hours, minutes, and seconds to an event? Countdown Timer is just that app! The objective of Countdown Timer is to provide a continuously decrementing display of the he months, days, hours, minutes, and seconds to a user entered event.",
+        "ConstraintsUse only builtin language functions for your calculations rather than relying on a library or package like MomentJS. This assumes, of course, that the language of your choice has adequate date and time manipulation functions built in. You may not use any code generators such as the Counting Down To site. You should develop your own original implementation.",
+        "User Stories User can see an event input box containing an event name field, an date field, an optional time, and a ‘Start’ button. User can define the event by entering its name, the date it is scheduled to take place, and an optional time of the event. If the time is omitted it is assumed to be at Midnight on the event date in the local time zone. User can see a warning message if the event name is blank. User can see a warning message if the event date or time are incorrectly entered. User can see a warning message if the time until the event data and time that has been entered would overflow the precision of the countdown timer. User can click on the ‘Start’ button to see the countdown timer start displaying the days, hours, minutes, and seconds until the event takes place. User can see the elements in the countdown timer automatically decrement. For example, when the remaining seconds count reaches 0 the remaining minutes count will decrement by 1 and the seconds will start to countdown from 59. This progression must take place from seconds all the way up to the remaining days position in countdown display."
+      ],
       "date": "Aug 18",
       "dateTime": "2015-05-16 19:00"
     },
+
     {
       "id": 3,
       "author": {
         "id": 3,
-        "name": "Jonathan Reinink",
-        "avatar": "https://picsum.photos/seed/picsum/200/300",
-        "profile": "_blank"
+        "name": "Jeff Davidson",
+        "avatar": "https://miro.medium.com/fit/c/96/96/0*VDtspt7-e7GUgK1R.jpg",
+        "profile": "https://blog.prototypr.io/@jeffdavidsond?source=post_page-----1c1cb188931----------------------"
       },
-      "title": "Title Title Title Title Title",
-      "subTitle": "subTitle subTitle subTitle",
-      "image": "https://via.placeholder.com/150",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!",
-      "date": "Aug 18",
-      "dateTime": "2015-05-16 19:00"
+      "title": "The Most Important Rule in UX Design that Everyone Breaks",
+      "subTitle": "In Product Design, and Possibly Life Management",
+      "image": "https://miro.medium.com/max/1000/1*PgZGGwR8UkLPnog2NcyliA@2x.png",
+      "body": [
+        "There is one principle of organization that every human should adhere to, particularly people who design products. Day after day, I see companies break this rule, and it is 100% of the time to their detriment. In this article I will explain what that rule is, and what it means to product and service design. I’ll also raise the possible implications of this phenomenon on organizational management, collaboration, and general performance. The psychological phenomenon I will be discussing in this article is known as Miller’s Law. Rather than just tell you what Miller’s Law is, I ask you to take part in this exercise for a more immersive learning lesson.",
+        "\"<h2>Step 1</h2>",
+        "Read the italicized instructions before starting. Grab a pen and paper. This is an exercise where you will try to recall words you’ve just read, off memory.Below is a list of 20 words. Read them to comprehension , and try to memorize as many as possible. Try to keep the words ‘in your head’. Do not write the words. Spend about a minute. After you are done reading, scroll down until you see the word ‘STOP’. Then, read step 2.",
+        "<h2>Step 2</h2>",
+        "Now, use your pen and paper to write down as many words as you can remember from the list. Think hard, but do not scroll back up to view the words. If you scroll up, the experiment is ruined. Give yourself about half a minute…Once you have finished writing the words you tried to recall, scroll back up and check how many you got right.",
+        "If you are like the vast majority of human beings, you will have remembered 5–9 of the words. Hundreds of experiments prove universality of this limitation on memory. When I first discovered this phenomenon, I knew it had huge implications on product design, because of the degree to which this limitation affects day to day tasks. This capacity for keeping ~7 bits of information ‘in the head’ short term, is known as Miller’s Law.",
+        "<h2>Miller’s Law · The Magic Number</h2>",
+        "In 1956 there was a paper written that became one of the most highly cited papers in psychology. Titled, The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information, it was published in 1956 by the cognitive psychologist George A. Miller of Princeton University’s Department of Psychology in Psychological Review. The crux of the paper suggests that the number of perceptual ‘chunks’ an average human can hold in working memory (a component of short-term memory) is 7 ± 2. This is frequently referred to as Miller’s law. Here is a summary of the article, sourced from wikipedia:",
+        "Moreover, the human mind can remember ~7 bits of information when completing a task that requires cognitive effort. This is critical, because humans are constantly performing tasks, and trying to juggle various stimuli in the mind when doing so. One of the key concepts behind Miller’s Law is ‘chunking’, which basically means assembling various bits of information into a cohesive gestalt. For example, the word · p e n c i l · is actually a ‘chunk’ of letters, organized into a perceptual gestalt. If the letters were rearranged · c n l i p e · it would be six separate chunks of information. Chunking is a critical element of information organization, and is the basis for our UX and organizational rule.",
+        "<h2>The Rule</h2>",
+        "The more chunks of information you add to an ‘interface’, the more difficult it becomes to ‘work’, using the information at hand. This is especially critical for first time users, because they haven’t had the ‘practice’ needed to encode the interface into long term memory, or, for the behaviour to become habitual. I constantly see this rule being broken by giants like Facebook, Google, and Wordpress. Don’t even get me started on automobile interface design. The ~5 bit chunk rule also compliments minimalism as a rigorous design philosophy. To expound, due to the limitations of working memory, as a product becomes more feature-full it inevitably becomes more difficult to use, because the user has to manage more information while operating the product. This makes good information design so critical.",
+        "ConstraintsUse only builtin language functions for your calculations rather than relying on a library or package like MomentJS. This assumes, of course, that the language of your choice has adequate date and time manipulation functions built in. You may not use any code generators such as the Counting Down To site. You should develop your own original implementation.",
+        "User Stories User can see an event input box containing an event name field, an date field, an optional time, and a ‘Start’ button. User can define the event by entering its name, the date it is scheduled to take place, and an optional time of the event. If the time is omitted it is assumed to be at Midnight on the event date in the local time zone. User can see a warning message if the event name is blank. User can see a warning message if the event date or time are incorrectly entered. User can see a warning message if the time until the event data and time that has been entered would overflow the precision of the countdown timer. User can click on the ‘Start’ button to see the countdown timer start displaying the days, hours, minutes, and seconds until the event takes place. User can see the elements in the countdown timer automatically decrement. For example, when the remaining seconds count reaches 0 the remaining minutes count will decrement by 1 and the seconds will start to countdown from 59. This progression must take place from seconds all the way up to the remaining days position in countdown display."
+      ],
+      "date": "oct 18",
+      "dateTime": "2018-05-16 19:00"
     },
     {
       "id": 4,
       "author": {
         "id": 4,
-        "name": "Jonathan Reinink",
-        "avatar": "https://picsum.photos/seed/picsum/200/300",
-        "profile": "_blank"
+        "name": "Indrek Lasn",
+        "avatar": "https://miro.medium.com/fit/c/96/96/1*Rhzd_aZYgwP2gocFecKi0Q.png",
+        "profile": "https://medium.com/@indreklasn?source=post_page-----5422a7ceae6e----------------------"
       },
-      "title": "Title Title Title Title Title",
-      "subTitle": "subTitle subTitle subTitle",
-      "image": "https://via.placeholder.com/150",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora blanditiis placeat dolorum. Inventore aliquam modi veritatis commodi ratione perspiciatis est unde, doloremque natus. Porro, dolores? Distinctio ducimus odit exercitationem illum!",
-      "date": "Aug 18",
-      "dateTime": "2015-05-16 19:00"
+      "title": "How To Use Redux with React Hooks",
+      "subTitle": "Write less code, but better code",
+      "image": "https://miro.medium.com/max/700/1*wnP4g1GY1MgXU150sw3QXw.png",
+      "body": [
+        "React Redux released hooks with the 7.1.0 version. This means we get to use the latest best practices with React.Hooks let us write less code for the same functionality. The less code we have to write, the quicker we can get our application off the ground.If you’re unsure about hooks, check out this sweet tutorial I wrote earlier. You’ll understand hooks much better, I guarantee.",
+        "\"<h2>Simple Redux Component</h2>",
+        "Here’s a very basic and traditional Redux connected component. How would you refactor it to using Hooks?",
+        "<h2>Step 1: Refactoring our class component to a functional component</h2>",
+        "Moving our React component from class to functional is rather simple. All we need to do is the following:      ",
+        "Notice how much shorter this already is. We replaced the class syntax to a simpler functional syntax. We also deconstructed the ui and toggleSwitch props from the arrow function arguments.If this is new to you, I wrote about this earlier too.",
+        "Hooks are usually pre-fixed with a use keyword, like useState or useSelector.The way we currently read state from our store is via the mapStateToProps and by wrapping our functional component inside the connect HOC.",
+        "<h2>Step 2: useSelector</h2>",
+        "In 1956 there was a paper written that became one of the most highly cited papers in psychology. Titled, The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information, it was published in 1956 by the cognitive psychologist George A. Miller of Princeton University’s Department of Psychology in Psychological Review. The crux of the paper suggests that the number of perceptual ‘chunks’ an average human can hold in working memory (a component of short-term memory) is 7 ± 2. This is frequently referred to as Miller’s law. Here is a summary of the article, sourced from wikipedia:",
+        "Moreover, the human mind can remember ~7 bits of information when completing a task that requires cognitive effort. This is critical, because humans are constantly performing tasks, and trying to juggle various stimuli in the mind when doing so. One of the key concepts behind Miller’s Law is ‘chunking’, which basically means assembling various bits of information into a cohesive gestalt. For example, the word · p e n c i l · is actually a ‘chunk’ of letters, organized into a perceptual gestalt. If the letters were rearranged · c n l i p e · it would be six separate chunks of information. Chunking is a critical element of information organization, and is the basis for our UX and organizational rule.",
+        "<h2>The Rule</h2>",
+        "The more chunks of information you add to an ‘interface’, the more difficult it becomes to ‘work’, using the information at hand. This is especially critical for first time users, because they haven’t had the ‘practice’ needed to encode the interface into long term memory, or, for the behaviour to become habitual. I constantly see this rule being broken by giants like Facebook, Google, and Wordpress. Don’t even get me started on automobile interface design. The ~5 bit chunk rule also compliments minimalism as a rigorous design philosophy. To expound, due to the limitations of working memory, as a product becomes more feature-full it inevitably becomes more difficult to use, because the user has to manage more information while operating the product. This makes good information design so critical.",
+        "ConstraintsUse only builtin language functions for your calculations rather than relying on a library or package like MomentJS. This assumes, of course, that the language of your choice has adequate date and time manipulation functions built in. You may not use any code generators such as the Counting Down To site. You should develop your own original implementation.",
+        "User Stories User can see an event input box containing an event name field, an date field, an optional time, and a ‘Start’ button. User can define the event by entering its name, the date it is scheduled to take place, and an optional time of the event. If the time is omitted it is assumed to be at Midnight on the event date in the local time zone. User can see a warning message if the event name is blank. User can see a warning message if the event date or time are incorrectly entered. User can see a warning message if the time until the event data and time that has been entered would overflow the precision of the countdown timer. User can click on the ‘Start’ button to see the countdown timer start displaying the days, hours, minutes, and seconds until the event takes place. User can see the elements in the countdown timer automatically decrement. For example, when the remaining seconds count reaches 0 the remaining minutes count will decrement by 1 and the seconds will start to countdown from 59. This progression must take place from seconds all the way up to the remaining days position in countdown display."
+      ],
+      "date": "oct 18",
+      "dateTime": "2018-05-16 19:00"
+    },
+    {
+      "id": 5,
+      "author": {
+        "id": 5,
+        "name": "Mr Herath",
+        "avatar": "https://miro.medium.com/fit/c/96/96/1*b4-PqV_5VnLqO_SOeO0M9A.jpeg",
+        "profile": "https://medium.com/@keith95?source=post_page-----d14fed5b0529----------------------"
+      },
+      "title": "The 6 Major Changes in React v17.0",
+      "subTitle": "Surprisingly, there are no new features, just improvements ",
+      "image": "https://miro.medium.com/max/700/0*1KBtlVVFvkB8W1Zo",
+      "body": [
+        "On August 10, React published their first release candidate for React v17. Even though it’s almost three years since a major release of React, surprisingly, there are no new features added for the new version. According to the React team, that’s to make it easier for the developer community to update React. But according to the React team, they are working on some new updates for the later versions of v17.",
+
+        "As we know, upgrading from v15 to v16 or v16 to v17 will not cause many problems in our code. But if your codebase was written a few years back, this may cause problems. The good news is that React teams assure us that migrations will get easier in the future versions, even from older versions of React.ere’s a very basic and traditional Redux connected component. How would you refactor it to using Hooks?",
+        "<h2>Installation</h2>",
+        "As usual, installation is straightforward. You can use either npm or yarn to install React v17. Personally, I prefer using yarn instead of npm. But it’s up to you what to choose.",
+        "Using npm",
+        "npm install react@17.0.0-rc.0 react-dom@17.0.0-rc.0",
+        "Using yarn",
+        "yarn add react@17.0.0-rc.0 react-dom@17.0.0-rc.0",
+        "Also, you can use React via the CDN. What you have to do is add the below code fragment into your index.html file.",
+        "Notice how much shorter this already is. We replaced the class syntax to a simpler functional syntax. We also deconstructed the ui and toggleSwitch props from the arrow function arguments.If this is new to you, I wrote about this earlier too.",
+        "Hooks are usually pre-fixed with a use keyword, like useState or useSelector.The way we currently read state from our store is via the mapStateToProps and by wrapping our functional component inside the connect HOC.",
+        "<h2>Step 2: useSelector</h2>",
+        "In 1956 there was a paper written that became one of the most highly cited papers in psychology. Titled, The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information, it was published in 1956 by the cognitive psychologist George A. Miller of Princeton University’s Department of Psychology in Psychological Review. The crux of the paper suggests that the number of perceptual ‘chunks’ an average human can hold in working memory (a component of short-term memory) is 7 ± 2. This is frequently referred to as Miller’s law. Here is a summary of the article, sourced from wikipedia:",
+        "Moreover, the human mind can remember ~7 bits of information when completing a task that requires cognitive effort. This is critical, because humans are constantly performing tasks, and trying to juggle various stimuli in the mind when doing so. One of the key concepts behind Miller’s Law is ‘chunking’, which basically means assembling various bits of information into a cohesive gestalt. For example, the word · p e n c i l · is actually a ‘chunk’ of letters, organized into a perceptual gestalt. If the letters were rearranged · c n l i p e · it would be six separate chunks of information. Chunking is a critical element of information organization, and is the basis for our UX and organizational rule.",
+        "<h2>The Rule</h2>",
+        "The more chunks of information you add to an ‘interface’, the more difficult it becomes to ‘work’, using the information at hand. This is especially critical for first time users, because they haven’t had the ‘practice’ needed to encode the interface into long term memory, or, for the behaviour to become habitual. I constantly see this rule being broken by giants like Facebook, Google, and Wordpress. Don’t even get me started on automobile interface design. The ~5 bit chunk rule also compliments minimalism as a rigorous design philosophy. To expound, due to the limitations of working memory, as a product becomes more feature-full it inevitably becomes more difficult to use, because the user has to manage more information while operating the product. This makes good information design so critical.",
+        "ConstraintsUse only builtin language functions for your calculations rather than relying on a library or package like MomentJS. This assumes, of course, that the language of your choice has adequate date and time manipulation functions built in. You may not use any code generators such as the Counting Down To site. You should develop your own original implementation.",
+        "User Stories User can see an event input box containing an event name field, an date field, an optional time, and a ‘Start’ button. User can define the event by entering its name, the date it is scheduled to take place, and an optional time of the event. If the time is omitted it is assumed to be at Midnight on the event date in the local time zone. User can see a warning message if the event name is blank. User can see a warning message if the event date or time are incorrectly entered. User can see a warning message if the time until the event data and time that has been entered would overflow the precision of the countdown timer. User can click on the ‘Start’ button to see the countdown timer start displaying the days, hours, minutes, and seconds until the event takes place. User can see the elements in the countdown timer automatically decrement. For example, when the remaining seconds count reaches 0 the remaining minutes count will decrement by 1 and the seconds will start to countdown from 59. This progression must take place from seconds all the way up to the remaining days position in countdown display."
+      ],
+      "date": "oct 18",
+      "dateTime": "2018-05-16 19:00"
+    },
+    {
+      "id": 6,
+      "author": {
+        "id": 6,
+        "name": "Daan",
+        "avatar": "https://miro.medium.com/fit/c/96/96/1*_aBlvaUgbJgSEI2fdRj9MQ.png",
+        "profile": "https://medium.com/@daaaan?source=post_page-----bc07fd21c6e3----------------------"
+      },
+      "title": "A List of Fun Things You Can Build as a Developer",
+      "subTitle": "Improve as a developer by getting your hands dirty",
+      "image": "https://miro.medium.com/max/700/1*043pHI4FMvM8rTDxF07uMw.jpeg",
+      "body": [
+        "On August 10, React published their first release candidate for React v17. Even though it’s almost three years since a major release of React, surprisingly, there are no new features added for the new version. According to the React team, that’s to make it easier for the developer community to update React. But according to the React team, they are working on some new updates for the later versions of v17.",
+
+        "As we know, upgrading from v15 to v16 or v16 to v17 will not cause many problems in our code. But if your codebase was written a few years back, this may cause problems. The good news is that React teams assure us that migrations will get easier in the future versions, even from older versions of React.ere’s a very basic and traditional Redux connected component. How would you refactor it to using Hooks?",
+        "<h2>Installation</h2>",
+        "As usual, installation is straightforward. You can use either npm or yarn to install React v17. Personally, I prefer using yarn instead of npm. But it’s up to you what to choose.",
+        "Using npm",
+        "npm install react@17.0.0-rc.0 react-dom@17.0.0-rc.0",
+        "Using yarn",
+        "yarn add react@17.0.0-rc.0 react-dom@17.0.0-rc.0",
+        "Also, you can use React via the CDN. What you have to do is add the below code fragment into your index.html file.",
+        "Notice how much shorter this already is. We replaced the class syntax to a simpler functional syntax. We also deconstructed the ui and toggleSwitch props from the arrow function arguments.If this is new to you, I wrote about this earlier too.",
+        "Hooks are usually pre-fixed with a use keyword, like useState or useSelector.The way we currently read state from our store is via the mapStateToProps and by wrapping our functional component inside the connect HOC.",
+        "<h2>Step 2: useSelector</h2>",
+        "In 1956 there was a paper written that became one of the most highly cited papers in psychology. Titled, The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information, it was published in 1956 by the cognitive psychologist George A. Miller of Princeton University’s Department of Psychology in Psychological Review. The crux of the paper suggests that the number of perceptual ‘chunks’ an average human can hold in working memory (a component of short-term memory) is 7 ± 2. This is frequently referred to as Miller’s law. Here is a summary of the article, sourced from wikipedia:",
+        "Moreover, the human mind can remember ~7 bits of information when completing a task that requires cognitive effort. This is critical, because humans are constantly performing tasks, and trying to juggle various stimuli in the mind when doing so. One of the key concepts behind Miller’s Law is ‘chunking’, which basically means assembling various bits of information into a cohesive gestalt. For example, the word · p e n c i l · is actually a ‘chunk’ of letters, organized into a perceptual gestalt. If the letters were rearranged · c n l i p e · it would be six separate chunks of information. Chunking is a critical element of information organization, and is the basis for our UX and organizational rule.",
+        "<h2>The Rule</h2>",
+        "The more chunks of information you add to an ‘interface’, the more difficult it becomes to ‘work’, using the information at hand. This is especially critical for first time users, because they haven’t had the ‘practice’ needed to encode the interface into long term memory, or, for the behaviour to become habitual. I constantly see this rule being broken by giants like Facebook, Google, and Wordpress. Don’t even get me started on automobile interface design. The ~5 bit chunk rule also compliments minimalism as a rigorous design philosophy. To expound, due to the limitations of working memory, as a product becomes more feature-full it inevitably becomes more difficult to use, because the user has to manage more information while operating the product. This makes good information design so critical.",
+        "ConstraintsUse only builtin language functions for your calculations rather than relying on a library or package like MomentJS. This assumes, of course, that the language of your choice has adequate date and time manipulation functions built in. You may not use any code generators such as the Counting Down To site. You should develop your own original implementation.",
+        "User Stories User can see an event input box containing an event name field, an date field, an optional time, and a ‘Start’ button. User can define the event by entering its name, the date it is scheduled to take place, and an optional time of the event. If the time is omitted it is assumed to be at Midnight on the event date in the local time zone. User can see a warning message if the event name is blank. User can see a warning message if the event date or time are incorrectly entered. User can see a warning message if the time until the event data and time that has been entered would overflow the precision of the countdown timer. User can click on the ‘Start’ button to see the countdown timer start displaying the days, hours, minutes, and seconds until the event takes place. User can see the elements in the countdown timer automatically decrement. For example, when the remaining seconds count reaches 0 the remaining minutes count will decrement by 1 and the seconds will start to countdown from 59. This progression must take place from seconds all the way up to the remaining days position in countdown display."
+      ],
+      "date": "oct 18",
+      "dateTime": "2018-05-16 19:00"
+    },
+    {
+      "id": 7,
+      "author": {
+        "id": 7,
+        "name": "Erik D. Kennedy",
+        "avatar": "https://miro.medium.com/fit/c/96/96/0*6Y-XULF_0OzPokWU.png",
+        "profile": "https://medium.com/@erikdkennedy?source=post_page-----559d4e805cda----------------------"
+      },
+      "title": "7 Rules for Creating Gorgeous UI",
+      "subTitle": "A non-artsy guide to creating beautiful apps and sites",
+      "image": "https://miro.medium.com/max/1000/1*X68DND6Lh8GFvM3i49KOhA.png",
+      "body": [
+        "<h2>Introduction</h2>",
+        "OK, first things first. This guide is not for everyone. Who is this guide for",
+        " Developers who want to be able to design their own good-looking UI in a pinch.",
+        "UX designers who want their portfolio to look better than a Pentagon PowerPoint. Or UX designers who know they can sell an awesome UX better in a pretty UI package.",
+        "If you went to art school or consider yourself a UI designer already, you will likely find this guide some combination of a.) boring, b.) wrong, and c.) irritating. That’s fine. All your criticisms are right. Close the tab, move along.",
+        "First, I was a UX designer with no UI skills. I love designing UX, but I wasn’t doing it for long before I realized there were a bunch of good reasons to learn how to make an interface look nice:",
+        "<h2>Installation</h2>",
+        "As usual, installation is straightforward. You can use either npm or yarn to install React v17. Personally, I prefer using yarn instead of npm. But it’s up to you what to choose.",
+        "Using npm",
+        "npm install react@17.0.0-rc.0 react-dom@17.0.0-rc.0",
+        "Using yarn",
+        "yarn add react@17.0.0-rc.0 react-dom@17.0.0-rc.0",
+        "Also, you can use React via the CDN. What you have to do is add the below code fragment into your index.html file.",
+        "Notice how much shorter this already is. We replaced the class syntax to a simpler functional syntax. We also deconstructed the ui and toggleSwitch props from the arrow function arguments.If this is new to you, I wrote about this earlier too.",
+        "Hooks are usually pre-fixed with a use keyword, like useState or useSelector.The way we currently read state from our store is via the mapStateToProps and by wrapping our functional component inside the connect HOC.",
+        "<h2>Step 2: useSelector</h2>",
+        "In 1956 there was a paper written that became one of the most highly cited papers in psychology. Titled, The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information, it was published in 1956 by the cognitive psychologist George A. Miller of Princeton University’s Department of Psychology in Psychological Review. The crux of the paper suggests that the number of perceptual ‘chunks’ an average human can hold in working memory (a component of short-term memory) is 7 ± 2. This is frequently referred to as Miller’s law. Here is a summary of the article, sourced from wikipedia:",
+        "Moreover, the human mind can remember ~7 bits of information when completing a task that requires cognitive effort. This is critical, because humans are constantly performing tasks, and trying to juggle various stimuli in the mind when doing so. One of the key concepts behind Miller’s Law is ‘chunking’, which basically means assembling various bits of information into a cohesive gestalt. For example, the word · p e n c i l · is actually a ‘chunk’ of letters, organized into a perceptual gestalt. If the letters were rearranged · c n l i p e · it would be six separate chunks of information. Chunking is a critical element of information organization, and is the basis for our UX and organizational rule.",
+        "<h2>The Rule</h2>",
+        "The more chunks of information you add to an ‘interface’, the more difficult it becomes to ‘work’, using the information at hand. This is especially critical for first time users, because they haven’t had the ‘practice’ needed to encode the interface into long term memory, or, for the behaviour to become habitual. I constantly see this rule being broken by giants like Facebook, Google, and Wordpress. Don’t even get me started on automobile interface design. The ~5 bit chunk rule also compliments minimalism as a rigorous design philosophy. To expound, due to the limitations of working memory, as a product becomes more feature-full it inevitably becomes more difficult to use, because the user has to manage more information while operating the product. This makes good information design so critical.",
+        "ConstraintsUse only builtin language functions for your calculations rather than relying on a library or package like MomentJS. This assumes, of course, that the language of your choice has adequate date and time manipulation functions built in. You may not use any code generators such as the Counting Down To site. You should develop your own original implementation.",
+        "User Stories User can see an event input box containing an event name field, an date field, an optional time, and a ‘Start’ button. User can define the event by entering its name, the date it is scheduled to take place, and an optional time of the event. If the time is omitted it is assumed to be at Midnight on the event date in the local time zone. User can see a warning message if the event name is blank. User can see a warning message if the event date or time are incorrectly entered. User can see a warning message if the time until the event data and time that has been entered would overflow the precision of the countdown timer. User can click on the ‘Start’ button to see the countdown timer start displaying the days, hours, minutes, and seconds until the event takes place. User can see the elements in the countdown timer automatically decrement. For example, when the remaining seconds count reaches 0 the remaining minutes count will decrement by 1 and the seconds will start to countdown from 59. This progression must take place from seconds all the way up to the remaining days position in countdown display."
+      ],
+      "date": "oct 18",
+      "dateTime": "2018-05-16 19:00"
     }
   ]
 }

@@ -1,5 +1,9 @@
 import React from 'react';
 import BlogsCard from '../components/blogsCard/';
+import { articlesDataBase } from './articles';
+import i18next from 'i18next';
+import { Link } from 'react-router-dom';
+const articles = i18next.t('articles', { returnObjects: true });
 
 export const BlogsCarouselSettings = {
   dots: true,
@@ -37,12 +41,9 @@ export const BlogsCarouselSettings = {
 };
 
 export const BlogsInfo = [
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
-  <BlogsCard />,
+  // <BlogsCard article={articles} />,
+  <BlogsCard article={articlesDataBase} />,
+  <BlogsCard article={articlesDataBase} />,
+  <BlogsCard article={articlesDataBase} />,
+  <BlogsCard article={articlesDataBase} />,
 ];
