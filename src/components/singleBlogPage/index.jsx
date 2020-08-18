@@ -5,7 +5,6 @@ import { useTranslation } from 'react-i18next';
 
 const SingleBlogPage = ({ article }) => {
   const { t } = useTranslation();
-  console.log('hi');
   return (
     <>
       <div className="grid grid-cols-1 lg:mx-20 xl:mx-40 gap-16 mx-3 relative">
@@ -37,7 +36,7 @@ const SingleBlogPage = ({ article }) => {
           <Article article={article} />
         </div>
         <div className="pt-16">
-          <h2 className=" text-xl font-medium">{t('blog.ReadAlso')}</h2>
+          <h2 className=" text-xl font-medium">Read Also</h2>
           <br />
           <RecommendedArticles />
         </div>

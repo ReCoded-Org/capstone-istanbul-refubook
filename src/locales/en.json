@@ -264,9 +264,12 @@
         "avatar": "https://miro.medium.com/fit/c/128/128/1*sSR_cfRyUkBoM7L1pUYoYA.jpeg",
         "profile": "https://blog.bitsrc.io/@popflorin1705?source=post_page-----28612c72a3b1----------------------"
       },
+      "name": "Florin Pop",
+      "avatar": "https://miro.medium.com/fit/c/128/128/1*sSR_cfRyUkBoM7L1pUYoYA.jpeg",
+      "profile": "https://blog.bitsrc.io/@popflorin1705?source=post_page-----28612c72a3b1----------------------",
       "title": "Mozilla: The Greatest Tech Company Left Behind",
       "subTitle": "How could an organization that had its hand in so many world-changing technologies fail to thrive?",
-      "image": "https://miro.medium.com/max/1388/1*lZma6KDWCfkcOmJuDCNerg.png",
+      "image": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
       "body": [
         "<h2>A brief history of Mozilla</h2>",
         "Mozilla was created out of the ashes of one of the world’s most spectacular software failures. Netscape Navigator, the pioneering web browser company of the late 1990s, had gone from internet king to also-ran in a matter of months. The cause — Microsoft’s aggressive bundling of Internet Explorer — hardly seemed fair. But most industry watchers were resigned to a future where browsers would be free and ubiquitous. They were hardly a product you could build a company around.",
@@ -295,9 +298,12 @@
         "avatar": "https://miro.medium.com/fit/c/96/96/1*6yPj-9aMYxi0Xnk5XNa0Lg.jpeg",
         "profile": "https://medium.com/@prosetech?source=post_page-----9e912098a0e1----------------------"
       },
+      "name": "Matthew MacDonald",
+      "avatar": "https://miro.medium.com/fit/c/96/96/1*6yPj-9aMYxi0Xnk5XNa0Lg.jpeg",
+      "profile": "https://medium.com/@prosetech?source=post_page-----9e912098a0e1----------------------",
       "title": "15 App Ideas to Build and Level Up your Coding Skills",
       "subTitle": "App ideas that are great to improve your coding skills, experiment with new technologies and add to your portfolio!",
-      "image": "https://miro.medium.com/max/700/1*FRFBpWtkjXrhPrS148P7mg.png",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
       "body": [
         "In this article, you’ll find 5 ideas from each tier.  Try to publish your reusable components, from either app to Bit.dev, a cloud component hub. You can document them and add examples in each component page (on Bit’s site) — then, use them in future apps or simply share them with your team.",
         "1. Countdown Timer Tier: 1-Beginner We all have important events we look forward to in life, birthdays, anniversaries, and holidays to name a few. Wouldn’t it be nice to have an app that counts down the months, days, hours, minutes, and seconds to an event? Countdown Timer is just that app! The objective of Countdown Timer is to provide a continuously decrementing display of the he months, days, hours, minutes, and seconds to a user entered event.",
@@ -316,9 +322,12 @@
         "avatar": "https://miro.medium.com/fit/c/96/96/0*VDtspt7-e7GUgK1R.jpg",
         "profile": "https://blog.prototypr.io/@jeffdavidsond?source=post_page-----1c1cb188931----------------------"
       },
+      "name": "Jeff Davidson",
+      "avatar": "https://miro.medium.com/fit/c/96/96/0*VDtspt7-e7GUgK1R.jpg",
+      "profile": "https://blog.prototypr.io/@jeffdavidsond?source=post_page-----1c1cb188931----------------------",
       "title": "The Most Important Rule in UX Design that Everyone Breaks",
       "subTitle": "In Product Design, and Possibly Life Management",
-      "image": "https://miro.medium.com/max/1000/1*PgZGGwR8UkLPnog2NcyliA@2x.png",
+      "image": "https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80",
       "body": [
         "There is one principle of organization that every human should adhere to, particularly people who design products. Day after day, I see companies break this rule, and it is 100% of the time to their detriment. In this article I will explain what that rule is, and what it means to product and service design. I’ll also raise the possible implications of this phenomenon on organizational management, collaboration, and general performance. The psychological phenomenon I will be discussing in this article is known as Miller’s Law. Rather than just tell you what Miller’s Law is, I ask you to take part in this exercise for a more immersive learning lesson.",
         "\"<h2>Step 1</h2>",
@@ -345,9 +354,12 @@
         "avatar": "https://miro.medium.com/fit/c/96/96/1*Rhzd_aZYgwP2gocFecKi0Q.png",
         "profile": "https://medium.com/@indreklasn?source=post_page-----5422a7ceae6e----------------------"
       },
+      "name": "Indrek Lasn",
+      "avatar": "https://miro.medium.com/fit/c/96/96/1*Rhzd_aZYgwP2gocFecKi0Q.png",
+      "profile": "https://medium.com/@indreklasn?source=post_page-----5422a7ceae6e----------------------",
       "title": "How To Use Redux with React Hooks",
       "subTitle": "Write less code, but better code",
-      "image": "https://miro.medium.com/max/700/1*wnP4g1GY1MgXU150sw3QXw.png",
+      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80",
       "body": [
         "React Redux released hooks with the 7.1.0 version. This means we get to use the latest best practices with React.Hooks let us write less code for the same functionality. The less code we have to write, the quicker we can get our application off the ground.If you’re unsure about hooks, check out this sweet tutorial I wrote earlier. You’ll understand hooks much better, I guarantee.",
         "\"<h2>Simple Redux Component</h2>",
@@ -375,9 +387,12 @@
         "avatar": "https://miro.medium.com/fit/c/96/96/1*b4-PqV_5VnLqO_SOeO0M9A.jpeg",
         "profile": "https://medium.com/@keith95?source=post_page-----d14fed5b0529----------------------"
       },
+      "name": "Mr Herath",
+      "avatar": "https://miro.medium.com/fit/c/96/96/1*b4-PqV_5VnLqO_SOeO0M9A.jpeg",
+      "profile": "https://medium.com/@keith95?source=post_page-----d14fed5b0529----------------------",
       "title": "The 6 Major Changes in React v17.0",
       "subTitle": "Surprisingly, there are no new features, just improvements ",
-      "image": "https://miro.medium.com/max/700/0*1KBtlVVFvkB8W1Zo",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
       "body": [
         "On August 10, React published their first release candidate for React v17. Even though it’s almost three years since a major release of React, surprisingly, there are no new features added for the new version. According to the React team, that’s to make it easier for the developer community to update React. But according to the React team, they are working on some new updates for the later versions of v17.",
 
@@ -410,6 +425,9 @@
         "avatar": "https://miro.medium.com/fit/c/96/96/1*_aBlvaUgbJgSEI2fdRj9MQ.png",
         "profile": "https://medium.com/@daaaan?source=post_page-----bc07fd21c6e3----------------------"
       },
+      "name": "Daan",
+      "avatar": "https://miro.medium.com/fit/c/96/96/1*_aBlvaUgbJgSEI2fdRj9MQ.png",
+      "profile": "https://medium.com/@daaaan?source=post_page-----bc07fd21c6e3----------------------",
       "title": "A List of Fun Things You Can Build as a Developer",
       "subTitle": "Improve as a developer by getting your hands dirty",
       "image": "https://miro.medium.com/max/700/1*043pHI4FMvM8rTDxF07uMw.jpeg",
@@ -445,9 +463,12 @@
         "avatar": "https://miro.medium.com/fit/c/96/96/0*6Y-XULF_0OzPokWU.png",
         "profile": "https://medium.com/@erikdkennedy?source=post_page-----559d4e805cda----------------------"
       },
+      "name": "Erik D. Kennedy",
+      "avatar": "https://miro.medium.com/fit/c/96/96/0*6Y-XULF_0OzPokWU.png",
+      "profile": "https://medium.com/@erikdkennedy?source=post_page-----559d4e805cda----------------------",
       "title": "7 Rules for Creating Gorgeous UI",
       "subTitle": "A non-artsy guide to creating beautiful apps and sites",
-      "image": "https://miro.medium.com/max/1000/1*X68DND6Lh8GFvM3i49KOhA.png",
+      "image": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1357&q=80",
       "body": [
         "<h2>Introduction</h2>",
         "OK, first things first. This guide is not for everyone. Who is this guide for",
